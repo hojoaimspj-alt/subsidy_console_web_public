@@ -1,0 +1,108 @@
+{
+    "programId": "jizokuka",
+    "title": "小規模事業者持続化補助金 事業計画書",
+    "sections": [
+        {
+            "id": "basic",
+            "label": "基礎情報",
+            "fields": [
+                {
+                    "id": "vision",
+                    "label": "事業の全体像や理念を教えてください。",
+                    "type": "textarea",
+                    "required": true
+                },
+                {
+                    "id": "site",
+                    "label": "自社ホームページのURLを記載してください。",
+                    "type": "url"
+                },
+                {
+                    "id": "address",
+                    "label": "住所を教えてください。",
+                    "type": "text"
+                },
+                {
+                    "id": "industry",
+                    "label": "業種を教えてください。",
+                    "type": "text"
+                },
+                {
+                    "id": "products",
+                    "label": "主要な商品・サービスと価格帯、売上構成を教えてください。",
+                    "type": "textarea"
+                }
+            ]
+        },
+        {
+            "id": "market",
+            "label": "市場と顧客",
+            "fields": [
+                {
+                    "id": "needs",
+                    "label": "顧客の具体的なニーズを教えてください。",
+                    "type": "textarea"
+                },
+                {
+                    "id": "competitors",
+                    "label": "主な競合と自社の違いを教えてください。",
+                    "type": "textarea"
+                }
+            ]
+        },
+        {
+            "id": "strength",
+            "label": "強み",
+            "fields": [
+                {
+                    "id": "strengths",
+                    "label": "自社の強み（商品品質、技術、地域連携など）を教えてください。",
+                    "type": "textarea"
+                }
+            ]
+        },
+        {
+            "id": "policy",
+            "label": "経営方針・目標",
+            "fields": [
+                {
+                    "id": "midterm_policy",
+                    "label": "中長期的な経営方針を教えてください。",
+                    "type": "textarea"
+                },
+                {
+                    "id": "targets",
+                    "label": "数値目標（売上・利益・スタッフ数など）を教えてください。",
+                    "type": "textarea"
+                },
+                {
+                    "id": "strategy",
+                    "label": "今後の経営戦略（新市場開拓、商品開発、人材育成など）を教えてください。",
+                    "type": "textarea"
+                }
+            ]
+        },
+        {
+            "id": "project",
+            "label": "補助事業の具体",
+            "fields": [
+                {
+                    "id": "project_name",
+                    "label": "補助事業の名称（30文字以内）を教えてください。",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "id": "funding",
+                    "label": "補助事業で使う予定の資金（自己資金・融資・補助金の内訳）を教えてください。",
+                    "type": "textarea"
+                },
+                {
+                    "id": "sales_plan",
+                    "label": "補助事業で行う予定の販路開拓の内容と、期待する効果を教えてください。",
+                    "type": "textarea"
+                }
+            ]
+        }
+    ]
+}
