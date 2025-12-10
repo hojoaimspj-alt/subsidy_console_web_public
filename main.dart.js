@@ -20704,7 +20704,7 @@ r.toString
 A.f4(r)
 q=a.h(0,"swipeEdge")
 q.toString
-return new A.Rd(s,r,B.P6[A.eh(q)])},
+return new A.Rd(s,r,B.P7[A.eh(q)])},
 G2:function G2(a,b){this.a=a
 this.b=b},
 Rd:function Rd(a,b,c){this.a=a
@@ -22989,7 +22989,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 b1y(a,b){var s=A.Z(b).i("Q<1,e8>")
 s=A.P(new A.Q(b,new A.a8x(),s),s.i("ah.E"))
-return A.b0W(!0,s,a,B.Px,!0,B.IA,null)},
+return A.b0W(!0,s,a,B.Py,!0,B.IA,null)},
 b1w(a){a.bQ()
 a.bt(A.aWQ())},
 C7(a){var s=a.a,r=s instanceof A.vO?s:null
@@ -23562,7 +23562,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 rj(a,b){var s
-if(a.j(0,b))return new A.NG(B.Pz)
+if(a.j(0,b))return new A.NG(B.PA)
 s=A.b([],t.fJ)
 A.c1()
 a.nb(new A.acb(b,A.az(t.v),s))
@@ -27194,7 +27194,7 @@ B.b.K(r,A.b(b.split("/"),s))
 return"/"+new A.ax(r,new A.aJO(),A.Z(r).i("ax<1>")).bD(0,"/")},
 aI0:function aI0(){},
 aJO:function aJO(){},
-vW(a,b,c){var s=A.b([],t.s),r=new A.r9(c,a,s,null,B.PK,b)
+vW(a,b,c){var s=A.b([],t.s),r=new A.r9(c,a,s,null,B.PL,b)
 r.y=A.aX8(c,s)
 return r},
 p0:function p0(){},
@@ -27383,7 +27383,7 @@ _.f=d
 _.a=e
 _.b=f},
 ab2:function ab2(){},
-b1L(a){return new A.mm(a.h(0,"id"),a.h(0,"friendly_name"),B.b.xo(B.OJ,new A.a9e(a)),B.b.xo(B.OI,new A.a9f(a)),A.qE(a.h(0,"created_at")),A.qE(a.h(0,"updated_at")))},
+b1L(a){return new A.mm(a.h(0,"id"),a.h(0,"friendly_name"),B.b.xo(B.OK,new A.a9e(a)),B.b.xo(B.OJ,new A.a9f(a)),A.qE(a.h(0,"created_at")),A.qE(a.h(0,"updated_at")))},
 qV:function qV(a,b){this.a=a
 this.b=b},
 qW:function qW(a,b){this.a=a
@@ -29690,7 +29690,7 @@ aJI:function aJI(){},
 aJJ:function aJJ(){},
 aJK:function aJK(){},
 aJL:function aJL(){},
-bak(g5){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0=null,c1="y1_sales",c2="y1_operating_profit",c3="y1_staff_count",c4="y1_customer_count",c5="y5_sales",c6="y5_operating_profit",c7="y5_staff_count",c8="y5_customer_count",c9="y1_sales_note",d0="y1_op_note",d1="y1_staff_note",d2="y1_customer_note",d3="y5_sales_note",d4="y5_op_note",d5="y5_staff_note",d6="y5_customer_note",d7="5-1.y1_operating_profit",d8="5-1.y1_staff_count",d9="5-1.y1_customer_count",e0="5-1.y5_operating_profit",e1="5-1.y5_staff_count",e2="5-1.y5_customer_count",e3="5-1.y1_sales_note",e4="5-1.y1_operating_profit_note",e5="5-1.y1_staff_count_note",e6="5-1.y1_customer_count_note",e7="5-1.y5_sales_note",e8="5-1.y5_operating_profit_note",e9="5-1.y5_staff_count_note",f0="5-1.y5_customer_count_note",f1="5-2.y1_operating_profit",f2="5-2.y1_staff_count",f3="5-2.y1_customer_count",f4="5-2.y5_operating_profit",f5="5-2.y5_staff_count",f6="5-2.y5_customer_count",f7="5-2.y1_sales_note",f8="5-2.y1_operating_profit_note",f9="5-2.y1_staff_count_note",g0="5-2.y1_customer_count_note",g1="5-2.y5_sales_note",g2="5-2.y5_operating_profit_note",g3="5-2.y5_staff_count_note",g4="5-2.y5_customer_count_note"
+bak(g5){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0=null,c1="y1_sales",c2="y1_gross_profit",c3="y1_unit_price",c4="y1_customer_count",c5="y5_sales",c6="y5_gross_profit",c7="y5_unit_price",c8="y5_customer_count",c9="y1_sales_note",d0="y1_gross_profit_note",d1="y1_unit_price_note",d2="y1_customer_note",d3="y5_sales_note",d4="y5_gross_profit_note",d5="y5_unit_price_note",d6="y5_customer_note",d7="5-1.y1_gross_profit",d8="5-1.y1_unit_price",d9="5-1.y1_customer_count",e0="5-1.y5_gross_profit",e1="5-1.y5_unit_price",e2="5-1.y5_customer_count",e3="5-1.y1_sales_note",e4="5-1.y1_gross_profit_note",e5="5-1.y1_unit_price_note",e6="5-1.y1_customer_count_note",e7="5-1.y5_sales_note",e8="5-1.y5_gross_profit_note",e9="5-1.y5_unit_price_note",f0="5-1.y5_customer_count_note",f1="5-2.y1_gross_profit",f2="5-2.y1_unit_price",f3="5-2.y1_customer_count",f4="5-2.y5_gross_profit",f5="5-2.y5_unit_price",f6="5-2.y5_customer_count",f7="5-2.y1_sales_note",f8="5-2.y1_gross_profit_note",f9="5-2.y1_unit_price_note",g0="5-2.y1_customer_count_note",g1="5-2.y5_sales_note",g2="5-2.y5_gross_profit_note",g3="5-2.y5_unit_price_note",g4="5-2.y5_customer_count_note"
 for(s=g5.$ti,r=new A.bp(g5,g5.gH(0),s.i("bp<aA.E>")),s=s.i("aA.E"),q=c0,p=q;r.t();){o=r.d
 n=o==null?s.a(o):o
 o=n.h(0,"target_kind")
@@ -29742,7 +29742,7 @@ b8=s.$2(q,d5)
 b9=s.$2(q,d6)
 s=t.N
 r=t.z
-return new A.xs(A.b([A.E(["id","5-1.y1_sales","label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09","path","targets.existing.y1.sales"],s,s),A.E(["id",d7,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u55b6\u696d\u5229\u76ca\uff08\u5186\uff09","path","targets.existing.y1.operating_profit"],s,s),A.E(["id",d8,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u5f93\u696d\u54e1\u6570","path","targets.existing.y1.staff_count"],s,s),A.E(["id",d9,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570","path","targets.existing.y1.customer_count"],s,s),A.E(["id","5-1.y5_sales","label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09","path","targets.existing.y5.sales"],s,s),A.E(["id",e0,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u55b6\u696d\u5229\u76ca\uff08\u5186\uff09","path","targets.existing.y5.operating_profit"],s,s),A.E(["id",e1,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u5f93\u696d\u54e1\u6570","path","targets.existing.y5.staff_count"],s,s),A.E(["id",e2,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570","path","targets.existing.y5.customer_count"],s,s),A.E(["id",e3,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y1.sales_note"],s,s),A.E(["id",e4,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u55b6\u696d\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y1.operating_profit_note"],s,s),A.E(["id",e5,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u5f93\u696d\u54e1\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y1.staff_count_note"],s,s),A.E(["id",e6,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y1.customer_count_note"],s,s),A.E(["id",e7,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y5.sales_note"],s,s),A.E(["id",e8,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u55b6\u696d\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y5.operating_profit_note"],s,s),A.E(["id",e9,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u5f93\u696d\u54e1\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y5.staff_count_note"],s,s),A.E(["id",f0,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y5.customer_count_note"],s,s),A.E(["id","5-2.y1_sales","label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09","path","targets.new.y1.sales"],s,s),A.E(["id",f1,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u55b6\u696d\u5229\u76ca\uff08\u5186\uff09","path","targets.new.y1.operating_profit"],s,s),A.E(["id",f2,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u5f93\u696d\u54e1\u6570","path","targets.new.y1.staff_count"],s,s),A.E(["id",f3,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570","path","targets.new.y1.customer_count"],s,s),A.E(["id","5-2.y5_sales","label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09","path","targets.new.y5.sales"],s,s),A.E(["id",f4,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u55b6\u696d\u5229\u76ca\uff08\u5186\uff09","path","targets.new.y5.operating_profit"],s,s),A.E(["id",f5,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u5f93\u696d\u54e1\u6570","path","targets.new.y5.staff_count"],s,s),A.E(["id",f6,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570","path","targets.new.y5.customer_count"],s,s),A.E(["id",f7,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y1.sales_note"],s,s),A.E(["id",f8,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u55b6\u696d\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y1.operating_profit_note"],s,s),A.E(["id",f9,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u5f93\u696d\u54e1\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y1.staff_count_note"],s,s),A.E(["id",g0,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y1.customer_count_note"],s,s),A.E(["id",g1,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y5.sales_note"],s,s),A.E(["id",g2,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u55b6\u696d\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y5.operating_profit_note"],s,s),A.E(["id",g3,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u5f93\u696d\u54e1\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y5.staff_count_note"],s,s),A.E(["id",g4,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y5.customer_count_note"],s,s)],t.SN),A.E(["5-1.y1_sales",l,d7,k,d8,j,d9,i,"5-1.y5_sales",h,e0,g,e1,f,e2,e,e3,d,e4,c,e5,b,e6,a,e7,a0,e8,a1,e9,a2,f0,a3,"5-2.y1_sales",a4,f1,a5,f2,a6,f3,a7,"5-2.y5_sales",a8,f4,a9,f5,b0,f6,b1,f7,b2,f8,b3,f9,b4,g0,b5,g1,b6,g2,b7,g3,b8,g4,b9],s,r),A.E(["project_targets",g5],s,r),B.bU)},
+return new A.xs(A.b([A.E(["id","5-1.y1_sales","label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09","path","targets.existing.y1.sales"],s,s),A.E(["id",d7,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09","path","targets.existing.y1.gross_profit"],s,s),A.E(["id",d8,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u5ba2\u5358\u4fa1\uff08\u5186\uff09","path","targets.existing.y1.unit_price"],s,s),A.E(["id",d9,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570","path","targets.existing.y1.customer_count"],s,s),A.E(["id","5-1.y5_sales","label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09","path","targets.existing.y5.sales"],s,s),A.E(["id",e0,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09","path","targets.existing.y5.gross_profit"],s,s),A.E(["id",e1,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u5ba2\u5358\u4fa1\uff08\u5186\uff09","path","targets.existing.y5.unit_price"],s,s),A.E(["id",e2,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570","path","targets.existing.y5.customer_count"],s,s),A.E(["id",e3,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y1.sales_note"],s,s),A.E(["id",e4,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y1.gross_profit_note"],s,s),A.E(["id",e5,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u5ba2\u5358\u4fa1\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y1.unit_price_note"],s,s),A.E(["id",e6,"label","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y1.customer_count_note"],s,s),A.E(["id",e7,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y5.sales_note"],s,s),A.E(["id",e8,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y5.gross_profit_note"],s,s),A.E(["id",e9,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u5ba2\u5358\u4fa1\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y5.unit_price_note"],s,s),A.E(["id",f0,"label","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.existing.y5.customer_count_note"],s,s),A.E(["id","5-2.y1_sales","label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09","path","targets.new.y1.sales"],s,s),A.E(["id",f1,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09","path","targets.new.y1.gross_profit"],s,s),A.E(["id",f2,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u5ba2\u5358\u4fa1\uff08\u5186\uff09","path","targets.new.y1.unit_price"],s,s),A.E(["id",f3,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570","path","targets.new.y1.customer_count"],s,s),A.E(["id","5-2.y5_sales","label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09","path","targets.new.y5.sales"],s,s),A.E(["id",f4,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09","path","targets.new.y5.gross_profit"],s,s),A.E(["id",f5,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u5ba2\u5358\u4fa1\uff08\u5186\uff09","path","targets.new.y5.unit_price"],s,s),A.E(["id",f6,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570","path","targets.new.y5.customer_count"],s,s),A.E(["id",f7,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y1.sales_note"],s,s),A.E(["id",f8,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y1.gross_profit_note"],s,s),A.E(["id",f9,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u5ba2\u5358\u4fa1\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y1.unit_price_note"],s,s),A.E(["id",g0,"label","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y1.customer_count_note"],s,s),A.E(["id",g1,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y5.sales_note"],s,s),A.E(["id",g2,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y5.gross_profit_note"],s,s),A.E(["id",g3,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u5ba2\u5358\u4fa1\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y5.unit_price_note"],s,s),A.E(["id",g4,"label","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2","path","targets.new.y5.customer_count_note"],s,s)],t.SN),A.E(["5-1.y1_sales",l,d7,k,d8,j,d9,i,"5-1.y5_sales",h,e0,g,e1,f,e2,e,e3,d,e4,c,e5,b,e6,a,e7,a0,e8,a1,e9,a2,f0,a3,"5-2.y1_sales",a4,f1,a5,f2,a6,f3,a7,"5-2.y5_sales",a8,f4,a9,f5,b0,f6,b1,f7,b2,f8,b3,f9,b4,g0,b5,g1,b6,g2,b7,g3,b8,g4,b9],s,r),A.E(["project_targets",g5],s,r),B.bU)},
 aJM:function aJM(){},
 xs:function xs(a,b,c,d){var _=this
 _.a=a
@@ -30708,7 +30708,7 @@ apl:function apl(a){this.a=a},
 api:function api(){},
 apj:function apj(a){this.a=a},
 apk:function apk(){},
-b1M(a){var s=A.aE(a.h(0,"id")),r=A.aE(a.h(0,"label")),q=B.b.Ds(B.PQ,new A.a9j(a),new A.a9k()),p=A.ku(a.h(0,"required")),o=A.b6(a.h(0,"placeholder")),n=t.kc.a(a.h(0,"options"))
+b1M(a){var s=A.aE(a.h(0,"id")),r=A.aE(a.h(0,"label")),q=B.b.Ds(B.PR,new A.a9j(a),new A.a9k()),p=A.ku(a.h(0,"required")),o=A.b6(a.h(0,"placeholder")),n=t.kc.a(a.h(0,"options"))
 n=n==null?null:J.f8(n,t.N)
 return new A.vN(s,r,q,p===!0,o,n)},
 b51(a){var s=A.aE(a.h(0,"id")),r=A.aE(a.h(0,"label")),q=J.ey(t.j.a(a.h(0,"fields")),new A.ami(),t.m8)
@@ -31864,7 +31864,7 @@ if(a instanceof A.cO)return a
 try{s=A.qE(J.ac(a))
 return s}catch(r){return null}},
 aWv(){var s=A.dy(20)
-return new A.cy(B.l,null,A.nS(B.Hl),s,B.P5,null,B.aj)},
+return new A.cy(B.l,null,A.nS(B.Hl),s,B.P6,null,B.aj)},
 aOZ(a){var s=0,r=A.t(t.y),q
 var $async$aOZ=A.o(function(b,c){if(b===1)return A.p(c,r)
 while(true)switch(s){case 0:q=$.a4e().getItem(a)!=null
@@ -33570,7 +33570,7 @@ gA(a){var s=this,r=s.b,q=r!=null?A.bI(r):null
 return A.W(s.a,q,s.c,s.d,s.e,s.x,s.f,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.a5S.prototype={
 Ol(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Pv
+if(a<0||b<0)return B.Pw
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -33823,7 +33823,7 @@ switch(1){case 1:s="ColorFilter.matrix("+A.k(this.c)+")"
 break}return s}}
 A.a9u.prototype={
 gta(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.b1I(B.Ph,r==null?"auto":r)},
+return A.b1I(B.Pi,r==null?"auto":r)},
 gZs(){var s=this.b
 s=s==null?null:s.canvasKitForceCpuOnly
 return s==null?!1:s},
@@ -34933,7 +34933,7 @@ if(e.b){q=t.f
 d=q.a(q.a(B.cH.iq(a2)).h(0,"data"))
 c=A.b6(d.h(0,"message"))
 if(c!=null&&c.length!==0){b=A.aMP(d,"assertiveness")
-e.a.YR(c,B.OD[b==null?0:b])}}a.fN(a3,B.cH.ct(!0))
+e.a.YR(c,B.OE[b==null?0:b])}}a.fN(a3,B.cH.ct(!0))
 return
 case"flutter/navigation":q=a.gdM().b
 p=t.e8
@@ -37268,7 +37268,7 @@ if(r.f!==B.qa){r.f=B.qa
 r.UL()}}return r.d.a.a54(a)},
 UL(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-a51(a){if(B.b.n(B.Pq,a))return this.f===B.ij
+a51(a){if(B.b.n(B.Pr,a))return this.f===B.ij
 return!1}}
 A.a98.prototype={
 $0(){return new A.cO(Date.now(),0,!1)},
@@ -38767,7 +38767,7 @@ m=A.e5(s.h(0,"fontWeightIndex"))
 l=m!=null?A.bb6(m):"normal"
 r=A.e6(s.h(0,"fontSize"))
 if(r==null)r=null
-p=new A.aqi(new A.a8t(r,l,A.b6(s.h(0,"fontFamily")),B.Oy[o],B.lR[n]))
+p=new A.aqi(new A.a8t(r,l,A.b6(s.h(0,"fontFamily")),B.Oz[o],B.lR[n]))
 break
 case"TextInput.clearClient":p=B.G7
 break
@@ -43286,7 +43286,7 @@ if(s==null||s.length<a)s=this.c=new Uint8Array(a)
 return J.jF(B.U.gcw(s),s.byteOffset,a)}}
 A.atK.prototype={
 B(a,b){this.Hl(b,0,J.bJ(b),!1)},
-aG(){this.Hl(B.Pt,0,0,!0)}}
+aG(){this.Hl(B.Pu,0,0,!0)}}
 A.atr.prototype={
 Hl(a,b,c,d){var s=this.b.LD(a,b,c,d)
 if(s!=null)this.a.B(0,A.hQ(s,0,null))
@@ -46122,7 +46122,7 @@ h=r[4]
 g=r[5]
 f=r[6]
 e=r[7]
-for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.OM[q]+s[q]>>>0)>>>0)>>>0
+for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.ON[q]+s[q]>>>0)>>>0)>>>0
 b=i+c>>>0
 a=c+((((d>>>2|d<<30)^(d>>>13|d<<19)^(d>>>22|d<<10))>>>0)+((d&k^d&j^k&j)>>>0)>>>0)>>>0}r.$flags&2&&A.ar(r)
 r[0]=d+l>>>0
@@ -47304,7 +47304,7 @@ r=A.hK(B.SP,B.f,r==null?1:r)
 r.toString
 q=p.ak(q.gp())
 if(q==null)q=1
-return A.aUq(A.aTe(null,B.x,new A.wp(q,B.P4,new A.dm(B.E3,this.e)),s,1,B.Xq),r)}}
+return A.aUq(A.aTe(null,B.x,new A.wp(q,B.P5,new A.dm(B.E3,this.e)),s,1,B.Xq),r)}}
 A.Lz.prototype={
 l(){var s=this,r=s.c1$
 if(r!=null)r.P(s.gij())
@@ -51096,7 +51096,7 @@ A.yB.prototype={
 N(){return"_CornerId."+this.b}}
 A.nm.prototype={}
 A.wu.prototype={
-mc(){var s,r,q,p=this,o=A.b9v(B.Pk,new A.afV(p,p.b.gaZ().a4(0,p.a.gaZ()))),n=p.a
+mc(){var s,r,q,p=this,o=A.b9v(B.Pl,new A.afV(p,p.b.gaZ().a4(0,p.a.gaZ()))),n=p.a
 n.toString
 s=o.a
 r=p.rw(n,s)
@@ -52608,7 +52608,7 @@ A.aD6.prototype={
 $2(a,b){return this.a.E$.cg(a,this.b)},
 $S:16}
 A.VI.prototype={
-gG1(){return B.OL},
+gG1(){return B.OM},
 KJ(a){var s
 switch(a.a){case 0:s=this.d.b
 break
@@ -56524,7 +56524,7 @@ A.aDk.prototype={
 $2(a,b){return this.a.cg(a,b)},
 $S:16}
 A.Wv.prototype={
-gG1(){return B.OU},
+gG1(){return B.OV},
 KJ(a){var s,r=this
 switch(a.a){case 0:s=r.d.at
 break
@@ -57264,7 +57264,7 @@ return s.b}}
 A.kq.prototype={
 N(){return"_ListTileSlot."+this.b}}
 A.Yk.prototype={
-gG1(){return B.Pf},
+gG1(){return B.Pg},
 KJ(a){var s,r=this
 switch(a.a){case 0:s=r.d
 break
@@ -57615,7 +57615,7 @@ r.e=s.a.a
 r.f=s.d},
 $S:0}
 A.Qn.prototype={
-G(a){return A.aTe(new A.qw(B.HQ,null,null),B.j,new A.wp(1,B.PT,new A.dm(B.E2,B.u)),this.c.S(0,new A.f(0,40.95)),1.25,B.Xs)}}
+G(a){return A.aTe(new A.qw(B.HQ,null,null),B.j,new A.wp(1,B.PU,new A.dm(B.E2,B.u)),this.c.S(0,new A.f(0,40.95)),1.25,B.Xs)}}
 A.rG.prototype={
 N(){return"MaterialType."+this.b}}
 A.rC.prototype={
@@ -58088,7 +58088,7 @@ gky(){return A.bbU()},
 Zn(a,b,c,d,e,f){return A.b0B(a,b,c,d,e,f)}}
 A.QV.prototype={
 ab1(a){var s=t.Tr
-s=A.P(new A.Q(B.Pj,new A.ahl(a),s),s.i("ah.E"))
+s=A.P(new A.Q(B.Pk,new A.ahl(a),s),s.i("ah.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -58257,7 +58257,7 @@ if(!k)q=A.rh(q,new A.cU(o,o,o,o,o,o,n.ax.a===B.ap?0.5:0.38,o,o))
 s=k?p.gM7():o
 return new A.oz(A.bq(!0,o,A.mu(!1,o,k,A.b2M(q,B.a7,o,r),o,!0,o,o,o,o,new A.X1(o,m.y),o,o,o,s,o,o,o,o,o,o,o),!1,o,o,k,!1,o,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,B.jc,o,o,o,o,o,o,B.F,o),o)}}
 A.zg.prototype={
-a8(){return new A.Ja(B.PD,this.$ti.i("Ja<1>"))}}
+a8(){return new A.Ja(B.PE,this.$ti.i("Ja<1>"))}}
 A.Ja.prototype={
 ag(){this.aD()
 this.Wz()},
@@ -64767,10 +64767,10 @@ ee(a){var s,r,q=this.b,p=q.a.c,o=a.a4(0,q.gje())
 p=p.a
 p===$&&A.a()
 s=p.a.getGlyphPositionAtCoordinate(o.a,o.b)
-r=B.P9[J.aW(s.affinity.value)]
+r=B.Pa[J.aW(s.affinity.value)]
 return new A.au(J.aW(s.pos),r)},
 wF(){var s,r,q=this.b,p=q.gje()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Pw
+if(!isFinite(p.a)||!isFinite(p.b))return B.Px
 s=q.f
 if(s==null){s=q.a.c.wF()
 q.f=s}if(p.j(0,B.f))r=s
@@ -74188,7 +74188,7 @@ break
 case 1:return A.q(q,r)}})
 return A.r($async$Id,r)},
 afs(a,b){var s,r,q,p
-if(a===b)return B.PH
+if(a===b)return B.PI
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.hE(B.fE,a)
@@ -76030,7 +76030,7 @@ A.mU.prototype={}
 A.Ri.prototype={
 mQ(a,b){var s,r,q,p,o,n=$.a4.J$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.J,r=0;r<2;++r){q=B.Pr[r]
+for(s=t.J,r=0;r<2;++r){q=B.Ps[r]
 p=n.e
 p.toString
 o=A.aLD(p,q,s)
@@ -76223,7 +76223,7 @@ this.ik()}}
 A.pv.prototype={
 k(a){return"Entry#"+A.bc(this)+"("+this.d.k(0)+")"}}
 A.Au.prototype={
-a8(){return new A.H4(A.az(t.me),B.PF,null,null)},
+a8(){return new A.H4(A.az(t.me),B.PG,null,null)},
 aCg(a,b){return this.w.$2(a,b)},
 ayF(a,b){return this.x.$2(a,b)}}
 A.H4.prototype={
@@ -76452,7 +76452,7 @@ r=n.gak7()
 q=n.a
 q=q.ch
 q.toString
-l.a=A.b1Y(!0,A.aSG(B.x,r,s,q,A.aX1(),n.galV(),m,n.gamp(),B.PJ,!0,"nav",B.a4h),"Navigator Scope",!0,m,m,m,m)}else{s=n.a.z
+l.a=A.b1Y(!0,A.aSG(B.x,r,s,q,A.aX1(),n.galV(),m,n.gamp(),B.PK,!0,"nav",B.a4h),"Navigator Scope",!0,m,m,m,m)}else{s=n.a.z
 if(s!=null){r=s.d
 r===$&&A.a()
 q=s.e
@@ -78082,7 +78082,7 @@ q.bw()
 q.cE$.B(0,s.galH())
 s.e=q}return q},
 gUg(){var s=this.f
-return s===$?this.f=new A.awI(1,B.Ox,B.cz):s},
+return s===$?this.f=new A.awI(1,B.Oy,B.cz):s},
 gih(){var s=this.z
 s=s==null?null:$.ct().d===s
 return s===!0},
@@ -78742,7 +78742,7 @@ h.K_()
 r=h.gagt()
 q=q.xm
 h.e!==$&&A.b8()
-h.e=new A.SK(s,new A.cd(B.RE,l),new A.rA(),p,B.cX,0,k,h.gaiV(),h.gaiX(),r,B.cX,0,j,h.gaiP(),h.gaiR(),r,i,B.PA,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.O4(),new A.O4())
+h.e=new A.SK(s,new A.cd(B.RE,l),new A.rA(),p,B.cX,0,k,h.gaiV(),h.gaiX(),r,B.cX,0,j,h.gaiP(),h.gaiR(),r,i,B.PB,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.O4(),new A.O4())
 return h},
 Aa(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -82244,7 +82244,7 @@ if(b==null)return!1
 if(J.a1(b)!==A.A(s))return!1
 return b instanceof A.bW&&b.a===s.a&&b.b==s.b&&b.c==s.c&&b.d===s.d&&A.cE(null,null)},
 gA(a){var s=this
-return A.W(s.a,s.b,s.c,s.d,A.bI(B.Py),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.W(s.a,s.b,s.c,s.d,A.bI(B.Pz),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.c.oE(B.h.qW(this.a,16).toUpperCase(),5,"0")+")"}}
 A.rg.prototype={
 co(a){return!this.w.j(0,a.w)},
@@ -83181,7 +83181,7 @@ h=r&&e
 c=r?e:c.CW
 if(c==null)c=B.dR
 r=r&&e
-g=new A.Dr(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.qK(e),B.Pu,r===!0)
+g=new A.Dr(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.qK(e),B.Pv,r===!0)
 if(!g.j(0,f.e))f.L(new A.aA_(f,g))},
 a_m(){if(this.d==null)this.t0()},
 Li(){this.t0()},
@@ -84009,7 +84009,7 @@ G(a){var s,r,q=this,p=null,o=q.gaik(),n=A.o9(a),m=q.bR$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gR()==null){r=q.gQA()
-r=J.om(r.slice(0),A.Z(r).c)}else r=B.PL
+r=J.om(r.slice(0),A.Z(r).c)}else r=B.PM
 return new A.rd(p,new A.dl(new A.agW(q,a),A.wi(B.c8,A.aPY(!1,A.aMs(A.kU(!0,p,A.GN(m,new A.wD(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n)),o,q.gaid(),p,p,o),p,t.w3),p)}}
 A.agR.prototype={
 $1(a){var s=this.a.c
@@ -90191,7 +90191,7 @@ r.BU()
 return s.b1()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gIf(),p=0;p<s.length;s.length===r||(0,A.L)(s),++p)s[p].P(q)
-o.b=B.PG
+o.b=B.PH
 o.y=!1
 o.cQ()},
 eA(a,b){return a.o9(b)},
@@ -93765,7 +93765,7 @@ A.awc.prototype={
 $1(a){return this.a.$2(a,this.b)},
 $S:18}
 A.awd.prototype={
-$5(a,b,c,d,e){var s=a.gA(a),r=this.a.a,q=r.r,p=d==null?B.PB:d,o=r.w
+$5(a,b,c,d,e){var s=a.gA(a),r=this.a.a,q=r.r,p=d==null?B.PC:d,o=r.w
 return A.aUL(q,r.y,r.z,new A.fu(s,t.bT),c,b.d,a,e,p,o)},
 $S:527}
 A.awe.prototype={
@@ -93828,7 +93828,7 @@ SN(a){return new A.Q(a,new A.alg(),A.Z(a).i("Q<1,i>")).bD(0," => ")},
 k(a){return"RouterConfiguration: "+A.k(this.a.a.a)},
 av8(){var s,r,q=new A.cJ("")
 q.a="Full paths for routes:\n"
-this.RV(this.a.a.a,"",B.PC,q)
+this.RV(this.a.a.a,"",B.PD,q)
 s=this.d
 if(s.a!==0){q.a+="known full paths for route names:\n"
 for(s=new A.cV(s,A.m(s).i("cV<1,2>")).ga7(0);s.t();){r=s.d
@@ -98606,7 +98606,7 @@ $2(a,b){var s,r,q,p=null,o=b.b<720,n=o?1/0:220,m=this.a,l=m.gIx(),k=m.gIw(),j=A.
 n=o?1/0:320
 s=A.cn(A.bx(p,B.J,!1,p,!0,B.j,p,A.bz(),m.gJA(),p,p,p,p,p,2,B.qs,B.o,!0,p,!0,p,!1,p,B.H,p,p,p,p,p,p,p,p,p,1,p,p,!1,"\u2022",p,p,p,p,p,!1,p,p,!1,p,!0,p,B.K,p,p,p,p,p,p,p,p,p,p,p,p,!0,B.v,p,B.M,p,p,p,p),p,n)
 n=o?1/0:160
-r=A.cn(A.aRf(B.MM,B.Oz,new A.aCe(m),m.w,t.N),p,n)
+r=A.cn(A.aRf(B.MM,B.OA,new A.aCe(m),m.w,t.N),p,n)
 n=m.x
 m=n?p:m.gaoH()
 q=A.o4(B.dH,A.ai(n?"\u4fdd\u5b58\u4e2d\u2026":"\u4fdd\u5b58",p,p,p,p,p,p,p),m)
@@ -99351,7 +99351,7 @@ case 1:return A.q(q,r)}})
 return A.r($async$zV,r)},
 G(a){var s,r,q,p,o,n,m=this,l=null,k=A.G(a),j=m.ax
 j===$&&A.a()
-s=A.aNG(j,!0,l,l,B.P7)
+s=A.aNG(j,!0,l,l,B.P8)
 r=A.ea(l,l,l,B.lM,l,l,m.x?l:m.galz(),l,l,l,"\u518d\u751f\u6210",l)
 q=new A.aAI(m).$0()
 p=t.p
@@ -99858,7 +99858,7 @@ s=7
 return A.l(l.$0(),$async$Bq)
 case 7:i=n.c
 if(i==null){s=1
-break}i.T(t.q).f.bu(A.e1(null,null,null,null,null,B.j,null,A.ai("\u300c"+B.Po[m]+"\u300d\u3060\u3051\u4fdd\u5b58\u3057\u307e\u3057\u305f",null,null,null,null,null,null,null),null,B.P,null,null,null,null,null,null,null,null,null))
+break}i.T(t.q).f.bu(A.e1(null,null,null,null,null,B.j,null,A.ai("\u300c"+B.Pp[m]+"\u300d\u3060\u3051\u4fdd\u5b58\u3057\u307e\u3057\u305f",null,null,null,null,null,null,null),null,B.P,null,null,null,null,null,null,null,null,null))
 p=2
 s=6
 break
@@ -99939,7 +99939,7 @@ case 2:return A.p(o.at(-1),r)}})
 return A.r($async$w4,r)},
 G(a){var s,r,q=this,p=null,o=q.e
 o===$&&A.a()
-o=A.aNG(o,!0,p,p,B.OC)
+o=A.aNG(o,!0,p,p,B.OD)
 o=A.lW(A.b([A.ea(p,p,p,B.M7,p,p,q.gaoJ(),p,p,p,"\u3053\u306e\u30bf\u30d6\u3060\u3051\u4fdd\u5b58",p),A.jn(B.qp,B.a3X,new A.azj(q,a),p,p)],t.p),o,B.a2I)
 s=q.e.d
 r=q.r
@@ -101219,37 +101219,37 @@ case 3:p=b
 n=new A.aG0()
 o=m==null
 A.cX(q.d,n.$1(o?null:m.h(0,"y1_sales")))
-A.cX(q.e,n.$1(o?null:m.h(0,"y1_operating_profit")))
-A.cX(q.f,n.$1(o?null:m.h(0,"y1_staff_count")))
+A.cX(q.e,n.$1(o?null:m.h(0,"y1_gross_profit")))
+A.cX(q.f,n.$1(o?null:m.h(0,"y1_unit_price")))
 A.cX(q.r,n.$1(o?null:m.h(0,"y1_customer_count")))
 A.cX(q.Q,n.$1(o?null:m.h(0,"y5_sales")))
-A.cX(q.as,n.$1(o?null:m.h(0,"y5_operating_profit")))
-A.cX(q.at,n.$1(o?null:m.h(0,"y5_staff_count")))
+A.cX(q.as,n.$1(o?null:m.h(0,"y5_gross_profit")))
+A.cX(q.at,n.$1(o?null:m.h(0,"y5_unit_price")))
 A.cX(q.ax,n.$1(o?null:m.h(0,"y5_customer_count")))
 A.cX(q.w,n.$1(o?null:m.h(0,"y1_sales_note")))
-A.cX(q.x,n.$1(o?null:m.h(0,"y1_op_note")))
-A.cX(q.y,n.$1(o?null:m.h(0,"y1_staff_note")))
+A.cX(q.x,n.$1(o?null:m.h(0,"y1_gross_profit_note")))
+A.cX(q.y,n.$1(o?null:m.h(0,"y1_unit_price_note")))
 A.cX(q.z,n.$1(o?null:m.h(0,"y1_customer_note")))
 A.cX(q.ay,n.$1(o?null:m.h(0,"y5_sales_note")))
-A.cX(q.ch,n.$1(o?null:m.h(0,"y5_op_note")))
-A.cX(q.CW,n.$1(o?null:m.h(0,"y5_staff_note")))
+A.cX(q.ch,n.$1(o?null:m.h(0,"y5_gross_profit_note")))
+A.cX(q.CW,n.$1(o?null:m.h(0,"y5_unit_price_note")))
 A.cX(q.cx,n.$1(o?null:m.h(0,"y5_customer_note")))
 o=p==null
 A.cX(q.cy,n.$1(o?null:p.h(0,"y1_sales")))
-A.cX(q.db,n.$1(o?null:p.h(0,"y1_operating_profit")))
-A.cX(q.dx,n.$1(o?null:p.h(0,"y1_staff_count")))
+A.cX(q.db,n.$1(o?null:p.h(0,"y1_gross_profit")))
+A.cX(q.dx,n.$1(o?null:p.h(0,"y1_unit_price")))
 A.cX(q.dy,n.$1(o?null:p.h(0,"y1_customer_count")))
 A.cX(q.id,n.$1(o?null:p.h(0,"y5_sales")))
-A.cX(q.k1,n.$1(o?null:p.h(0,"y5_operating_profit")))
-A.cX(q.k2,n.$1(o?null:p.h(0,"y5_staff_count")))
+A.cX(q.k1,n.$1(o?null:p.h(0,"y5_gross_profit")))
+A.cX(q.k2,n.$1(o?null:p.h(0,"y5_unit_price")))
 A.cX(q.k3,n.$1(o?null:p.h(0,"y5_customer_count")))
 A.cX(q.fr,n.$1(o?null:p.h(0,"y1_sales_note")))
-A.cX(q.fx,n.$1(o?null:p.h(0,"y1_op_note")))
-A.cX(q.fy,n.$1(o?null:p.h(0,"y1_staff_note")))
+A.cX(q.fx,n.$1(o?null:p.h(0,"y1_gross_profit_note")))
+A.cX(q.fy,n.$1(o?null:p.h(0,"y1_unit_price_note")))
 A.cX(q.go,n.$1(o?null:p.h(0,"y1_customer_note")))
 A.cX(q.k4,n.$1(o?null:p.h(0,"y5_sales_note")))
-A.cX(q.ok,n.$1(o?null:p.h(0,"y5_op_note")))
-A.cX(q.p1,n.$1(o?null:p.h(0,"y5_staff_note")))
+A.cX(q.ok,n.$1(o?null:p.h(0,"y5_gross_profit_note")))
+A.cX(q.p1,n.$1(o?null:p.h(0,"y5_unit_price_note")))
 A.cX(q.p2,n.$1(o?null:p.h(0,"y5_customer_note")))
 if(q.c!=null)q.L(new A.aG_(q))
 return A.q(null,r)}})
@@ -101266,20 +101266,20 @@ if(s.length===0||s==="-")return null
 return A.fS(s,null)},
 Ru(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var s=A.u(t.N,t.z),r=new A.aFX(this,s),q=new A.aFY(s)
 r.$2("y1_sales",e)
-r.$2("y1_operating_profit",c)
-r.$2("y1_staff_count",g)
+r.$2("y1_gross_profit",c)
+r.$2("y1_unit_price",g)
 r.$2("y1_customer_count",a)
 r.$2("y5_sales",m)
-r.$2("y5_operating_profit",k)
-r.$2("y5_staff_count",o)
+r.$2("y5_gross_profit",k)
+r.$2("y5_unit_price",o)
 r.$2("y5_customer_count",i)
 q.$2("y1_sales_note",f)
-q.$2("y1_op_note",d)
-q.$2("y1_staff_note",h)
+q.$2("y1_gross_profit_note",d)
+q.$2("y1_unit_price_note",h)
 q.$2("y1_customer_note",b)
 q.$2("y5_sales_note",n)
-q.$2("y5_op_note",l)
-q.$2("y5_staff_note",p)
+q.$2("y5_gross_profit_note",l)
+q.$2("y5_unit_price_note",p)
 q.$2("y5_customer_note",j)
 return s},
 aki(a){return B.b.e9(a,new A.aFZ())},
@@ -101440,7 +101440,7 @@ G(a){var s=null,r=A.G(a),q=this.d.n(0,"\u305d\u306e\u4ed6\uff08\u81ea\u7531\u8a1
 p=p.r
 if(p==null)p="\u203b\u8907\u6570\u9078\u629e\u53ef"
 p=A.b([new A.hf(o,n,s,s),B.cd,A.ai(p,s,s,s,s,r.ok.Q,s,s),B.O],t.p)
-B.b.K(p,new A.Q(B.Pp,new A.av8(this,q),t.bg))
+B.b.K(p,new A.Q(B.Pq,new A.av8(this,q),t.bg))
 return A.ds(new A.aw(B.l2,A.bn(p,B.a_,B.p,B.r),s),s,s,s,s,s)}}
 A.av8.prototype={
 $1(a){var s,r,q=null,p=this.a
@@ -101834,7 +101834,7 @@ while(true)switch(s){case 0:j=p.e.length
 if(j>=10){j=p.c
 if(j!=null)j.T(t.q).f.bu(B.XJ)
 s=1
-break}if(j<3){o=B.OO[j]
+break}if(j<3){o=B.OP[j]
 n=o.b
 m=o.a}else{n="\u4f8b\uff1a\u5b66\u751f\uff0810\u301c20\u4ee3\uff09\uff0f\u8fd1\u96a3\u4f4f\u6c11 \u306a\u3069"
 m="\u4f8b\uff1a\u5b89\u4fa1\u3067\u30dc\u30ea\u30e5\u30fc\u30e0\u306e\u3042\u308b\u30e1\u30cb\u30e5\u30fc\uff0f\u52c9\u5f37\u3084\u4f5c\u696d\u304c\u3057\u3084\u3059\u3044\u74b0\u5883 \u306a\u3069"}j=$.a_()
@@ -101951,7 +101951,7 @@ q.L(new A.axP(q))
 q.a.e.$1(q.gaf2())
 return A.q(null,r)}})
 return A.r($async$vv,r)},
-IM(a){var s=a<3?B.Pl[a]:new A.us(["5,000","3","100,000","1,000,000","\u5e74\u5ea6\u30b5\u30de\u30ea","20XX\u5e74"]),r=$.a_(),q=s.a
+IM(a){var s=a<3?B.Pm[a]:new A.us(["5,000","3","100,000","1,000,000","\u5e74\u5ea6\u30b5\u30de\u30ea","20XX\u5e74"]),r=$.a_(),q=s.a
 return new A.lx(null,new A.X(B.k,r),new A.X(B.k,r),new A.X(B.k,r),new A.X(B.k,r),new A.X(B.k,r),new A.X(B.k,r),q[5],q[3],q[2],q[1],q[0],q[4])},
 pC(){var s=0,r=A.t(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3
 var $async$pC=A.o(function(a4,a5){if(a4===1)return A.p(a5,r)
@@ -102170,7 +102170,7 @@ while(true)switch(s){case 0:k=p.e.length
 if(k>=10){k=p.c
 if(k!=null)k.T(t.q).f.bu(B.XD)
 s=1
-break}if(k<3){k=B.Ow[k]
+break}if(k<3){k=B.Ox[k]
 o=k.a
 n=k.b}else{o="\u4f8b\uff1a\u65b0\u5546\u54c1\uff08\u4fa1\u683c\u5e2f\uff09\uff0f\u7279\u5fb4\uff1a\u2026"
 n="\u4f8b\uff1a1,000,000"}k=$.a_()
@@ -102565,15 +102565,15 @@ A.TQ.prototype={
 nP(a,b,c,d){var s=null
 return new A.aw(B.Jr,A.cx(A.b([A.cn(A.ai(a,s,s,s,s,s,s,s),s,80),B.by,A.cn(A.bx(s,B.J,!1,s,!0,B.j,s,A.bz(),c,s,s,s,s,s,2,B.qq.ZP(d),B.o,!0,s,!0,s,!1,s,B.H,s,s,s,s,s,B.bq,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.K,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.v,s,B.M,s,s,s,s),s,140),B.bH,A.cT(A.bx(s,B.J,!1,s,!0,B.j,s,A.bz(),b,s,s,s,s,s,2,B.qq.ZP(this.aly(a)),B.o,!0,s,!0,s,!1,s,B.H,s,s,s,s,s,s,s,s,s,4,2,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.K,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.v,s,B.M,s,s,s,s),1)],t.p),B.a_,B.p,B.r,0),s)},
 aly(a){switch(a){case"\u58f2\u4e0a":return"\u4f8b\uff1a\u65b0\u30e1\u30cb\u30e5\u30fc\u5c0e\u5165\u3067\u6708\uff0b50\u4e07\u5186\u3001\u65e2\u5b58\u9867\u5ba2\u306e\u8cfc\u5165\u983b\u5ea6UP\u306a\u3069"
-case"\u55b6\u696d\u5229\u76ca":return"\u4f8b\uff1a\u539f\u4fa1\u7387\u6539\u55845%\u3001\u56fa\u5b9a\u8cbb\u524a\u6e1b\u3067\u5e74\u9593\uff0b120\u4e07\u5186\u898b\u8fbc\u307f\u306a\u3069"
-case"\u5f93\u696d\u54e1\u6570":return"\u4f8b\uff1a\u6765\u5ba2\u6570\u5897\u52a0\u306b\u3088\u308b\u696d\u52d9\u91cf\u5897\u3001\u55b6\u696d\u6642\u9593\u62e1\u5927\u3078\u306e\u5bfe\u5fdc\u306a\u3069"
+case"\u58f2\u4e0a\u7dcf\u5229\u76ca":return"\u4f8b\uff1a\u539f\u4fa1\u7387\u6539\u55845%\u3001\u9ad8\u7c97\u5229\u5546\u54c1\u306e\u8ca9\u58f2\u5f37\u5316\u306a\u3069"
+case"\u5ba2\u5358\u4fa1":return"\u4f8b\uff1a\u30bb\u30c3\u30c8\u30e1\u30cb\u30e5\u30fc\u5316\u3067\uff0b300\u5186\u3001\u30aa\u30d7\u30b7\u30e7\u30f3\u63d0\u6848\u5f37\u5316\u306a\u3069"
 case"\u9867\u5ba2\u6570":return"\u4f8b\uff1aSNS\u5e83\u544a\u3067\u65b0\u898f\uff0b200\u540d\u3001\u7d39\u4ecb\u65bd\u7b56\u306b\u3088\u308a\uff0b10%\u5897\u306a\u3069"
 default:return"\u6839\u62e0\uff08\u81ea\u7531\u8a18\u8ff0\uff09"}},
 G(a){var s,r,q=this,p=null,o=A.G(a),n=o.ok.z
 if(n==null)n=p
 else{s=o.ax
 r=s.rx
-n=n.bf(r==null?s.k3:r)}return A.ds(new A.aw(B.aI,A.bn(A.b([new A.hf(q.c,q.d,p,p),B.O,A.ai(q.e,p,p,p,p,n,p,p),B.ax,B.a3M,B.O,q.nP("\u58f2\u4e0a",q.at,q.f,"10,000,000"),q.nP("\u55b6\u696d\u5229\u76ca",q.ax,q.r,"1,500,000"),q.nP("\u5f93\u696d\u54e1\u6570",q.ay,q.w,"4"),q.nP("\u9867\u5ba2\u6570",q.ch,q.x,"8,000"),B.jl,B.a2A,B.O,q.nP("\u58f2\u4e0a",q.CW,q.y,"15,000,000"),q.nP("\u55b6\u696d\u5229\u76ca",q.cx,q.z,"3,000,000"),q.nP("\u5f93\u696d\u54e1\u6570",q.cy,q.Q,"6"),q.nP("\u9867\u5ba2\u6570",q.db,q.as,"12,000")],t.p),B.a_,B.p,B.r),p),p,p,0,p,p)}}
+n=n.bf(r==null?s.k3:r)}return A.ds(new A.aw(B.aI,A.bn(A.b([new A.hf(q.c,q.d,p,p),B.O,A.ai(q.e,p,p,p,p,n,p,p),B.ax,B.a3M,B.O,q.nP("\u58f2\u4e0a",q.at,q.f,"10,000,000"),q.nP("\u58f2\u4e0a\u7dcf\u5229\u76ca",q.ax,q.r,"4,000,000"),q.nP("\u5ba2\u5358\u4fa1",q.ay,q.w,"3,000"),q.nP("\u9867\u5ba2\u6570",q.ch,q.x,"8,000"),B.jl,B.a2A,B.O,q.nP("\u58f2\u4e0a",q.CW,q.y,"15,000,000"),q.nP("\u58f2\u4e0a\u7dcf\u5229\u76ca",q.cx,q.z,"6,000,000"),q.nP("\u5ba2\u5358\u4fa1",q.cy,q.Q,"3,500"),q.nP("\u9867\u5ba2\u6570",q.db,q.as,"12,000")],t.p),B.a_,B.p,B.r),p),p,p,0,p,p)}}
 A.Gg.prototype={
 a8(){var s=t.N
 return new A.KI(A.u(s,s))}}
@@ -103271,7 +103271,7 @@ p=q.c
 o=p?l:new A.avw(m)
 o=A.o4(B.fy,p?B.a2E:B.a3b,o)
 n=t.p
-return A.ds(new A.aw(B.fs,A.bn(A.b([new A.c9(B.f_,l,l,new A.xt(B.Pi,j,new A.avx(m),l,t.IR),l),B.ar,g,B.O,s,B.O,r,B.O,A.cx(A.b([o,B.by,A.kf(!1,B.nj,l,l,l,l,l,l,p?l:q.e,l,l)],n),B.E,B.p,B.r,0)],n),B.E,B.p,B.r),l),l,h,0,l,l)}}
+return A.ds(new A.aw(B.fs,A.bn(A.b([new A.c9(B.f_,l,l,new A.xt(B.Pj,j,new A.avx(m),l,t.IR),l),B.ar,g,B.O,s,B.O,r,B.O,A.cx(A.b([o,B.by,A.kf(!1,B.nj,l,l,l,l,l,l,p?l:q.e,l,l)],n),B.E,B.p,B.r,0)],n),B.E,B.p,B.r),l),l,h,0,l,l)}}
 A.avx.prototype={
 $1(a){var s=this.a
 return s.L(new A.avv(s,a))},
@@ -103356,7 +103356,7 @@ if(r==null)r=m.k3}r=A.nS(r)
 q=n.ok.at
 if(q==null)m=o
 else{p=m.rx
-m=q.aui(p==null?m.k3:p,B.OK)}return A.em(B.a2,A.ai(""+this.c,o,o,o,o,m,o,o),B.x,o,o,new A.cy(l,o,r,s,o,o,B.aj),o,26,o,o,o,o,26)}}
+m=q.aui(p==null?m.k3:p,B.OL)}return A.em(B.a2,A.ai(""+this.c,o,o,o,o,m,o,o),B.x,o,o,new A.cy(l,o,r,s,o,o,B.aj),o,26,o,o,o,o,26)}}
 A.Rn.prototype={
 G(a){var s,r,q,p,o,n,m=this,l=null,k=A.G(a),j=m.c
 if(j==null)return B.GB
@@ -104096,7 +104096,7 @@ k=l?B.c3:B.l
 j=new A.aQ(999,999)
 i=new A.aI(B.cL,1,B.w,-1)
 l=l?B.l:B.c3
-g.push(A.mq(h,A.em(h,A.ai(n.b,h,h,h,h,new A.v(!0,l,h,h,h,h,12,B.dd,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h),h,h),B.x,h,h,new A.cy(k,h,new A.dG(i,i,i,i),new A.cN(j,j,j,j),B.Q_,h,B.aj),h,h,h,B.Jp,h,h,h),B.o,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.ahv(o,this),h,h,h,h,h,h))}return A.iF(B.D9,g,B.bN,8,8)}}
+g.push(A.mq(h,A.em(h,A.ai(n.b,h,h,h,h,new A.v(!0,l,h,h,h,h,12,B.dd,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h),h,h),B.x,h,h,new A.cy(k,h,new A.dG(i,i,i,i),new A.cN(j,j,j,j),B.Q0,h,B.aj),h,h,h,B.Jp,h,h,h),B.o,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.ahv(o,this),h,h,h,h,h,h))}return A.iF(B.D9,g,B.bN,8,8)}}
 A.ahv.prototype={
 $0(){return this.b.e.$1(this.a.a)},
 $S:0}
@@ -104242,7 +104242,7 @@ if(b.a===B.kE)return B.hA
 s=b.c
 if(s!=null)return new A.aw(B.dC,A.ai("\u8aad\u307f\u8fbc\u307f\u306b\u5931\u6557\u3057\u307e\u3057\u305f\n"+A.k(s),p,p,p,p,B.a0s,p,p),p)
 r=b.b
-if(r==null)r=B.PE
+if(r==null)r=B.PF
 s=J.b3(r)
 if(s.gai(r))return B.DD
 q=s.gH(r)
@@ -104356,7 +104356,7 @@ for(s=k.d,s=A.fW(s,0,A.lI(2,"count",t.S),A.Z(s).c),r=s.$ti,s=new A.bp(s,s.gH(0),
 g.push(new A.Vd(q==null?r.a(q):q,o))}g=A.iF(B.b5,g,B.bN,8,8)
 s=A.b([],j)
 for(k=k.e,r=k.length,p=0;p<r;++p)s.push(A.aQw(A.ai(k[p],o,o,o,o,o,o,o),o))
-return A.cn(A.mu(!1,m,!0,A.em(o,A.bn(A.b([i,B.hc,h,B.ar,g,B.ar,A.iF(B.b5,s,B.bN,6,6),B.ax,A.cn(A.a8E(!1,A.cx(B.Or,B.E,B.ev,B.bv,0),o,o,o,o,o,o,n,o,o),o,1/0)],j),B.a_,B.p,B.r),B.x,o,o,l,o,o,o,B.K,o,o,o),o,!0,o,o,o,o,o,o,o,o,n,o,o,o,o,o,o,o),o,540)}}
+return A.cn(A.mu(!1,m,!0,A.em(o,A.bn(A.b([i,B.hc,h,B.ar,g,B.ar,A.iF(B.b5,s,B.bN,6,6),B.ax,A.cn(A.a8E(!1,A.cx(B.Os,B.E,B.ev,B.bv,0),o,o,o,o,o,o,n,o,o),o,1/0)],j),B.a_,B.p,B.r),B.x,o,o,l,o,o,o,B.K,o,o,o),o,!0,o,o,o,o,o,o,o,o,n,o,o,o,o,o,o,o),o,540)}}
 A.apc.prototype={
 $0(){},
 $S:0}
@@ -108944,7 +108944,7 @@ B.Gf=new A.ar4()
 B.ac=new A.Uh()
 B.dv=new A.Uj()
 B.eS=new A.Un(0,0,0,0)
-B.Pu=s([],A.at("C<a7k>"))
+B.Pv=s([],A.at("C<a7k>"))
 B.a7n=new A.arg()
 B.f7=new A.UJ()
 B.bO=new A.UK()
@@ -109722,28 +109722,28 @@ B.LH=new A.bW(57882,"MaterialIcons",null,!1)
 B.Mb=new A.bQ(B.LH,18,null,null,null)
 B.CU=new A.am("\u30bf\u30a4\u30c8\u30eb\u3092\u7de8\u96c6",null,null,null,null,null,null,null,null,null)
 B.NI=new A.j8(B.Mb,B.CU,null,null,null,!0,null,null,null,null,!0,null,null,null,!1,null,!1,null,null,null,null,!0,null)
-B.Kt=new A.aB("jz.products.total_sales","\u5546\u54c1\u58f2\u4e0a\u5408\u8a08\uff08\u5186\uff09","products_services.sales_amount \u306e\u5408\u8a08","2-1.total")
+B.Kx=new A.aB("jz.products.total_sales","\u5546\u54c1\u58f2\u4e0a\u5408\u8a08\uff08\u5186\uff09","products_services.sales_amount \u306e\u5408\u8a08","2-1.total")
 B.K5=new A.aB("jz.products[].product_name","\u5546\u54c1\u540d\u30ea\u30b9\u30c8","order_index \u6607\u9806\u306e\u914d\u5217\uff08List<String>\uff09","2-1.product_name")
-B.KJ=new A.aB("jz.products[].price_range","\u5546\u54c1\u5225\u4fa1\u683c\u5e2f\u30ea\u30b9\u30c8","\u4f8b: \u300c500\u301c800\u5186\u300d\u306a\u3069\u306e\u6587\u5b57\u5217","2-1.price_range")
+B.KN=new A.aB("jz.products[].price_range","\u5546\u54c1\u5225\u4fa1\u683c\u5e2f\u30ea\u30b9\u30c8","\u4f8b: \u300c500\u301c800\u5186\u300d\u306a\u3069\u306e\u6587\u5b57\u5217","2-1.price_range")
 B.L_=new A.aB("jz.products[].sales_amount","\u5546\u54c1\u5225\u58f2\u4e0a\uff08\u5186\uff09\u30ea\u30b9\u30c8","\u540c\u3058\u9806\u5e8f\u306e\u914d\u5217\uff08List<num>\uff09","2-1.sales_amount")
-B.KL=new A.aB("jz.products[].gross_profit","\u5546\u54c1\u5225\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09\u30ea\u30b9\u30c8",null,"2-1.gross_profit")
-B.KS=new A.aB("jz.products[].note","\u5546\u54c1\u5225\u30e1\u30e2\u30fb\u81ea\u7531\u8a18\u8ff0\u30ea\u30b9\u30c8",null,"2-1.free_note")
-B.KC=new A.aB("jz.business.total_sales","\u4e8b\u696d\u5225\u58f2\u4e0a\u5408\u8a08\uff08\u5186\uff09","business_items.sales_amount \u306e\u5408\u8a08","2-2.total")
-B.KA=new A.aB("jz.business[].business","\u4e8b\u696d\u540d\u30ea\u30b9\u30c8","\u4f8b: \u300c\u30a4\u30fc\u30c8\u30a4\u30f3\u300d\u300c\u30c6\u30a4\u30af\u30a2\u30a6\u30c8\u300d\u306a\u3069","2-2.business_name")
-B.KE=new A.aB("jz.business[].menu","\u5546\u54c1\u30b5\u30fc\u30d3\u30b9\u30ea\u30b9\u30c8","\u4e8b\u696d\u3054\u3068\u306e\u4ee3\u8868\u7684\u306a\u30e1\u30cb\u30e5\u30fc\u30fb\u5185\u5bb9","2-2.menu_summary")
-B.K0=new A.aB("jz.business[].sales_amount","\u4e8b\u696d\u5225\u58f2\u4e0a\u9ad8\uff08\u5186\uff09\u30ea\u30b9\u30c8",null,"2-2.sales_amount")
+B.KO=new A.aB("jz.products[].gross_profit","\u5546\u54c1\u5225\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09\u30ea\u30b9\u30c8",null,"2-1.gross_profit")
+B.KU=new A.aB("jz.products[].note","\u5546\u54c1\u5225\u30e1\u30e2\u30fb\u81ea\u7531\u8a18\u8ff0\u30ea\u30b9\u30c8",null,"2-1.free_note")
+B.KH=new A.aB("jz.business.total_sales","\u4e8b\u696d\u5225\u58f2\u4e0a\u5408\u8a08\uff08\u5186\uff09","business_items.sales_amount \u306e\u5408\u8a08","2-2.total")
+B.KE=new A.aB("jz.business[].business","\u4e8b\u696d\u540d\u30ea\u30b9\u30c8","\u4f8b: \u300c\u30a4\u30fc\u30c8\u30a4\u30f3\u300d\u300c\u30c6\u30a4\u30af\u30a2\u30a6\u30c8\u300d\u306a\u3069","2-2.business_name")
+B.KJ=new A.aB("jz.business[].menu","\u5546\u54c1\u30b5\u30fc\u30d3\u30b9\u30ea\u30b9\u30c8","\u4e8b\u696d\u3054\u3068\u306e\u4ee3\u8868\u7684\u306a\u30e1\u30cb\u30e5\u30fc\u30fb\u5185\u5bb9","2-2.menu_summary")
+B.K1=new A.aB("jz.business[].sales_amount","\u4e8b\u696d\u5225\u58f2\u4e0a\u9ad8\uff08\u5186\uff09\u30ea\u30b9\u30c8",null,"2-2.sales_amount")
 B.Ki=new A.aB("jz.business[].gross_profit","\u4e8b\u696d\u5225\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09\u30ea\u30b9\u30c8",null,"2-2.gross_profit")
 B.K7=new A.aB("jz.business[].unit_price","\u4e8b\u696d\u5225\u5ba2\u5358\u4fa1\uff08\u5186\uff09\u30ea\u30b9\u30c8",null,"2-2.unit_price")
-B.KD=new A.aB("jz.business[].customer_count","\u4e8b\u696d\u5225\u9867\u5ba2\u6570\u30ea\u30b9\u30c8","\u4e8b\u696d\u3054\u3068\u306e\u5e74\u9593\u9867\u5ba2\u6570\uff08\u5ef6\u3079\uff09","2-2.customer_count")
-B.Lf=new A.aB("jz.segments[].segment_name","\u9867\u5ba2\u5c64\u540d\u30ea\u30b9\u30c8","order_index \u6607\u9806\u306e\u914d\u5217\uff08List<String>\uff09","2-3.segment_name")
-B.Km=new A.aB("jz.segments[].needs","\u9867\u5ba2\u30cb\u30fc\u30ba\u30fb\u7279\u5fb4\u30ea\u30b9\u30c8","\u9867\u5ba2\u5c64\u3054\u3068\u306e\u30cb\u30fc\u30ba\u30fb\u7279\u5fb4\u306e\u81ea\u7531\u8a18\u8ff0","2-3.needs")
-B.Kz=new A.aB("jz.fin[].fiscal_year","\u5e74\u5ea6\u30ea\u30b9\u30c8",null,"2-4.fiscal_year")
-B.Lh=new A.aB("jz.fin[].revenue","\u58f2\u4e0a\u9ad8\u30ea\u30b9\u30c8\uff08\u5186\uff09",null,"2-4.revenue")
-B.Kh=new A.aB("jz.fin[].operating_profit","\u55b6\u696d\u5229\u76ca\u30ea\u30b9\u30c8\uff08\u5186\uff09",null,"2-4.operating_profit")
-B.Kf=new A.aB("jz.fin[].employee_count","\u5f93\u696d\u54e1\u6570\u30ea\u30b9\u30c8",null,"2-4.employee_count")
-B.Kx=new A.aB("jz.fin[].customer_count","\u9867\u5ba2\u6570\u30ea\u30b9\u30c8",null,"2-4.customer_count")
-B.Kj=new A.aB("jz.fin[].business_description","\u4e8b\u696d\u5e74\u5ea6\u306e\u6982\u8981\u30ea\u30b9\u30c8",null,"2-4.business_description")
-B.NJ=s([B.Kt,B.K5,B.KJ,B.L_,B.KL,B.KS,B.KC,B.KA,B.KE,B.K0,B.Ki,B.K7,B.KD,B.Lf,B.Km,B.Kz,B.Lh,B.Kh,B.Kf,B.Kx,B.Kj],t.Bb)
+B.KI=new A.aB("jz.business[].customer_count","\u4e8b\u696d\u5225\u9867\u5ba2\u6570\u30ea\u30b9\u30c8","\u4e8b\u696d\u3054\u3068\u306e\u5e74\u9593\u9867\u5ba2\u6570\uff08\u5ef6\u3079\uff09","2-2.customer_count")
+B.Ld=new A.aB("jz.segments[].segment_name","\u9867\u5ba2\u5c64\u540d\u30ea\u30b9\u30c8","order_index \u6607\u9806\u306e\u914d\u5217\uff08List<String>\uff09","2-3.segment_name")
+B.Ko=new A.aB("jz.segments[].needs","\u9867\u5ba2\u30cb\u30fc\u30ba\u30fb\u7279\u5fb4\u30ea\u30b9\u30c8","\u9867\u5ba2\u5c64\u3054\u3068\u306e\u30cb\u30fc\u30ba\u30fb\u7279\u5fb4\u306e\u81ea\u7531\u8a18\u8ff0","2-3.needs")
+B.KD=new A.aB("jz.fin[].fiscal_year","\u5e74\u5ea6\u30ea\u30b9\u30c8",null,"2-4.fiscal_year")
+B.Lf=new A.aB("jz.fin[].revenue","\u58f2\u4e0a\u9ad8\u30ea\u30b9\u30c8\uff08\u5186\uff09",null,"2-4.revenue")
+B.Kf=new A.aB("jz.fin[].operating_profit","\u55b6\u696d\u5229\u76ca\u30ea\u30b9\u30c8\uff08\u5186\uff09",null,"2-4.operating_profit")
+B.Kd=new A.aB("jz.fin[].employee_count","\u5f93\u696d\u54e1\u6570\u30ea\u30b9\u30c8",null,"2-4.employee_count")
+B.KB=new A.aB("jz.fin[].customer_count","\u9867\u5ba2\u6570\u30ea\u30b9\u30c8",null,"2-4.customer_count")
+B.Kk=new A.aB("jz.fin[].business_description","\u4e8b\u696d\u5e74\u5ea6\u306e\u6982\u8981\u30ea\u30b9\u30c8",null,"2-4.business_description")
+B.NJ=s([B.Kx,B.K5,B.KN,B.L_,B.KO,B.KU,B.KH,B.KE,B.KJ,B.K1,B.Ki,B.K7,B.KI,B.Ld,B.Ko,B.KD,B.Lf,B.Kf,B.Kd,B.KB,B.Kk],t.Bb)
 B.qE=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
 B.NM=s([239,191,189],t.t)
 B.Ob=s([4,9,14,19],t.t)
@@ -109752,16 +109752,49 @@ B.Dv=new A.JS(1,"anonymous")
 B.Ol=s([B.nM,B.Dv],A.at("C<JS>"))
 B.qF=s([0,4,12,1,5,13,3,7,15],t.t)
 B.Op=s([65533],t.t)
+B.KZ=new A.aB("jz.targets.existing.y1_sales","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09",null,"5-1.y1_sales")
+B.K0=new A.aB("jz.targets.existing.y1_gross_profit","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09",null,"5-1.y1_gross_profit")
+B.Kl=new A.aB("jz.targets.existing.y1_unit_price","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u5ba2\u5358\u4fa1\uff08\u5186\uff09",null,"5-1.y1_unit_price")
+B.KV=new A.aB("jz.targets.existing.y1_customer_count","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570",null,"5-1.y1_customer_count")
+B.KQ=new A.aB("jz.targets.existing.y5_sales","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09",null,"5-1.y5_sales")
+B.Kg=new A.aB("jz.targets.existing.y5_gross_profit","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09",null,"5-1.y5_gross_profit")
+B.KG=new A.aB("jz.targets.existing.y5_unit_price","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u5ba2\u5358\u4fa1\uff08\u5186\uff09",null,"5-1.y5_unit_price")
+B.KR=new A.aB("jz.targets.existing.y5_customer_count","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570",null,"5-1.y5_customer_count")
+B.KX=new A.aB("jz.targets.existing.y1_sales_note","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y1_sales_note")
+B.Ll=new A.aB("jz.targets.existing.y1_gross_profit_note","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y1_gross_profit_note")
+B.L6=new A.aB("jz.targets.existing.y1_unit_price_note","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u5ba2\u5358\u4fa1\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y1_unit_price_note")
+B.KP=new A.aB("jz.targets.existing.y1_customer_count_note","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y1_customer_count_note")
+B.KF=new A.aB("jz.targets.existing.y5_sales_note","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y5_sales_note")
+B.Kh=new A.aB("jz.targets.existing.y5_gross_profit_note","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y5_gross_profit_note")
+B.Lj=new A.aB("jz.targets.existing.y5_unit_price_note","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u5ba2\u5358\u4fa1\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y5_unit_price_note")
+B.Kp=new A.aB("jz.targets.existing.y5_customer_count_note","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y5_customer_count_note")
+B.Ks=new A.aB("jz.targets.new.y1_sales","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09",null,"5-2.y1_sales")
+B.KK=new A.aB("jz.targets.new.y1_gross_profit","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09",null,"5-2.y1_gross_profit")
+B.KS=new A.aB("jz.targets.new.y1_unit_price","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u5ba2\u5358\u4fa1\uff08\u5186\uff09",null,"5-2.y1_unit_price")
+B.K8=new A.aB("jz.targets.new.y1_customer_count","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570",null,"5-2.y1_customer_count")
+B.Lb=new A.aB("jz.targets.new.y5_sales","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09",null,"5-2.y5_sales")
+B.K3=new A.aB("jz.targets.new.y5_gross_profit","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\uff08\u5186\uff09",null,"5-2.y5_gross_profit")
+B.Ku=new A.aB("jz.targets.new.y5_unit_price","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u5ba2\u5358\u4fa1\uff08\u5186\uff09",null,"5-2.y5_unit_price")
+B.Kr=new A.aB("jz.targets.new.y5_customer_count","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570",null,"5-2.y5_customer_count")
+B.KM=new A.aB("jz.targets.new.y1_sales_note","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y1_sales_note")
+B.Kj=new A.aB("jz.targets.new.y1_gross_profit_note","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y1_gross_profit_note")
+B.Ke=new A.aB("jz.targets.new.y1_unit_price_note","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u5ba2\u5358\u4fa1\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y1_unit_price_note")
+B.Le=new A.aB("jz.targets.new.y1_customer_count_note","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y1_customer_count_note")
+B.Km=new A.aB("jz.targets.new.y5_sales_note","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y5_sales_note")
+B.L9=new A.aB("jz.targets.new.y5_gross_profit_note","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u7dcf\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y5_gross_profit_note")
+B.Kq=new A.aB("jz.targets.new.y5_unit_price_note","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u5ba2\u5358\u4fa1\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y5_unit_price_note")
+B.K2=new A.aB("jz.targets.new.y5_customer_count_note","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y5_customer_count_note")
+B.Or=s([B.KZ,B.K0,B.Kl,B.KV,B.KQ,B.Kg,B.KG,B.KR,B.KX,B.Ll,B.L6,B.KP,B.KF,B.Kh,B.Lj,B.Kp,B.Ks,B.KK,B.KS,B.K8,B.Lb,B.K3,B.Ku,B.Kr,B.KM,B.Kj,B.Ke,B.Le,B.Km,B.L9,B.Kq,B.K2],t.Bb)
 B.qm=new A.bQ(B.es,18,null,null,null)
 B.by=new A.ee(8,null,null,null)
 B.a30=new A.am("\u3053\u306e\u88dc\u52a9\u91d1\u3067\u4e8b\u696d\u8a08\u753b\u66f8\u3092\u4f5c\u6210",null,null,null,null,null,null,null,null,null)
 B.LY=new A.bW(62842,"MaterialIcons",null,!0)
 B.Mj=new A.bQ(B.LY,18,null,null,null)
-B.Or=s([B.qm,B.by,B.a30,B.by,B.Mj],t.p)
+B.Os=s([B.qm,B.by,B.a30,B.by,B.Mj],t.p)
 B.V4=new A.zm(u.h,"4,000,000")
 B.V5=new A.zm("\u30b9\u30a4\u30fc\u30c4\uff08300\u301c600\u5186\uff09\u3001\u7279\u5fb4\uff1a\u5b63\u7bc0\u3084\u5730\u57df\u7d20\u6750\u3092\u4f7f\u3063\u305f\u624b\u4f5c\u308a","3,000,000")
 B.Vg=new A.zm("\u7269\u8ca9\uff081,000\u5186\u524d\u5f8c\uff09\u3001\u7279\u5fb4\uff1a\u30c9\u30ea\u30c3\u30d7\u30d0\u30c3\u30b0\u3084\u713c\u83d3\u5b50","1,500,000")
-B.Ow=s([B.V4,B.V5,B.Vg],A.at("C<+p,s(i,i)>"))
+B.Ox=s([B.V4,B.V5,B.Vg],A.at("C<+p,s(i,i)>"))
 B.a6m=new A.hX(0,1)
 B.a6r=new A.hX(0.5,1)
 B.a6u=new A.hX(0.5375,0.75)
@@ -109773,70 +109806,70 @@ B.a6v=new A.hX(0.8875,0.25)
 B.a6t=new A.hX(0.925,0.5)
 B.a6n=new A.hX(0.9625,0.75)
 B.a6o=new A.hX(1,1)
-B.Ox=s([B.a6m,B.a6r,B.a6u,B.a6w,B.a6s,B.a6q,B.a6p,B.a6v,B.a6t,B.a6n,B.a6o],A.at("C<hX>"))
+B.Oy=s([B.a6m,B.a6r,B.a6u,B.a6w,B.a6s,B.a6q,B.a6p,B.a6v,B.a6t,B.a6n,B.a6o],A.at("C<hX>"))
 B.hh=new A.na(0,"left")
 B.nb=new A.na(1,"right")
 B.hi=new A.na(2,"center")
 B.jq=new A.na(3,"justify")
 B.v=new A.na(4,"start")
 B.nc=new A.na(5,"end")
-B.Oy=s([B.hh,B.nb,B.hi,B.jq,B.v,B.nc],A.at("C<na>"))
+B.Oz=s([B.hh,B.nb,B.hi,B.jq,B.v,B.nc],A.at("C<na>"))
 B.a3q=new A.am("draft",null,null,null,null,null,null,null,null,null)
 B.IJ=new A.iV("draft",B.a3q,B.dn,null,t.b7)
 B.a3y=new A.am("published",null,null,null,null,null,null,null,null,null)
 B.IK=new A.iV("published",B.a3y,B.dn,null,t.b7)
-B.Oz=s([B.IJ,B.IK],A.at("C<iV<i>>"))
-B.OS=s([2,1.13276676],t.n)
+B.OA=s([B.IJ,B.IK],A.at("C<iV<i>>"))
+B.OT=s([2,1.13276676],t.n)
 B.NQ=s([2.18349805,1.20311921],t.n)
-B.PP=s([2.33888662,1.28698796],t.n)
-B.PS=s([2.48660575,1.36351941],t.n)
-B.OE=s([2.62226596,1.44717976],t.n)
-B.OH=s([2.7514899,1.53385819],t.n)
-B.Pg=s([3.36298265,1.98288283],t.n)
-B.OV=s([4.08649929,2.23811846],t.n)
-B.P8=s([4.85481134,2.47563463],t.n)
-B.OF=s([5.62945551,2.72948597],t.n)
-B.OT=s([6.43023796,2.98020421],t.n)
-B.qG=s([B.OS,B.NQ,B.PP,B.PS,B.OE,B.OH,B.Pg,B.OV,B.P8,B.OF,B.OT],t.zg)
+B.PQ=s([2.33888662,1.28698796],t.n)
+B.PT=s([2.48660575,1.36351941],t.n)
+B.OF=s([2.62226596,1.44717976],t.n)
+B.OI=s([2.7514899,1.53385819],t.n)
+B.Ph=s([3.36298265,1.98288283],t.n)
+B.OW=s([4.08649929,2.23811846],t.n)
+B.P9=s([4.85481134,2.47563463],t.n)
+B.OG=s([5.62945551,2.72948597],t.n)
+B.OU=s([6.43023796,2.98020421],t.n)
+B.qG=s([B.OT,B.NQ,B.PQ,B.PT,B.OF,B.OI,B.Ph,B.OW,B.P9,B.OG,B.OU],t.zg)
 B.Yx=new A.eK("\u73fe\u5728\u306e\u4f01\u696d\u6982\u8981",null,null)
 B.Yv=new A.eK("\u73fe\u5728\u306e\u7d4c\u55b6\u72b6\u6cc1",null,null)
 B.Yy=new A.eK("\u4eca\u5f8c\u306e\u7d4c\u55b6\u65b9\u91dd",null,null)
 B.YG=new A.eK("\u88dc\u52a9\u4e8b\u696d",null,null)
 B.YB=new A.eK("\u76ee\u6a19",null,null)
-B.OC=s([B.Yx,B.Yv,B.Yy,B.YG,B.YB],t.p)
-B.OD=s([B.k7,B.k8],A.at("C<AF>"))
+B.OD=s([B.Yx,B.Yv,B.Yy,B.YG,B.YB],t.p)
+B.OE=s([B.k7,B.k8],A.at("C<AF>"))
 B.JX=new A.qV(0,"verified")
 B.JY=new A.qV(1,"unverified")
-B.OI=s([B.JX,B.JY],A.at("C<qV>"))
+B.OJ=s([B.JX,B.JY],A.at("C<qV>"))
 B.JZ=new A.qW(0,"totp")
 B.K_=new A.qW(1,"phone")
-B.OJ=s([B.JZ,B.K_],A.at("C<qW>"))
+B.OK=s([B.JZ,B.K_],A.at("C<qW>"))
 B.Fs=new A.Cq()
-B.OK=s([B.Fs],A.at("C<Cq>"))
+B.OL=s([B.Fs],A.at("C<Cq>"))
 B.bA=new A.lw(0,"label")
 B.bi=new A.lw(1,"avatar")
 B.cC=new A.lw(2,"deleteIcon")
-B.OL=s([B.bA,B.bi,B.cC],A.at("C<lw>"))
-B.OM=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
+B.OM=s([B.bA,B.bi,B.cC],A.at("C<lw>"))
+B.ON=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
 B.DL=new A.i7("",6,"userDeleted")
 B.qH=s([B.e6,B.f0,B.dq,B.e7,B.f1,B.o_,B.DL,B.nZ],A.at("C<i7>"))
 B.Vf=new A.zl("\u5e73\u65e5\u30e9\u30f3\u30c1\u30fb\u30ab\u30d5\u30a7\u5229\u7528\uff0f\u843d\u3061\u7740\u3044\u305f\u7a7a\u9593\u30cb\u30fc\u30ba","\u5730\u57df\u4f4f\u6c11\uff0830\u301c50\u4ee3\uff09")
 B.UN=new A.zl("\u30c6\u30a4\u30af\u30a2\u30a6\u30c8\u9700\u8981\uff0f\u77ed\u6642\u9593\u306e\u6253\u5408\u305b\u5229\u7528","\u30aa\u30d5\u30a3\u30b9\u5c64")
 B.V6=new A.zl("\u5199\u771f\u6620\u3048\u30fb\u3054\u5f53\u5730\u30e1\u30cb\u30e5\u30fc","\u89b3\u5149\u5ba2")
-B.OO=s([B.Vf,B.UN,B.V6],A.at("C<+needs,seg(i,i)>"))
-B.L5=new A.aB("jz.header.project_name","\u88dc\u52a9\u4e8b\u696d\u540d",null,"4-1")
-B.Ke=new A.aB("jz.project.sales_devs[].background","\u8ca9\u8def\u958b\u62d3\u306e\u80cc\u666f\u30ea\u30b9\u30c8","api.v_jz_project_sales_devs.background","4-2.background")
-B.Ky=new A.aB("jz.project.sales_devs[].target","\u8ca9\u8def\u958b\u62d3\u306e\u88dc\u52a9\u91d1\u5bfe\u8c61\u30ea\u30b9\u30c8","api.v_jz_project_sales_devs.target / order_index \u6607\u9806","4-2.target")
-B.Kr=new A.aB("jz.project.sales_devs[].amount","\u8ca9\u8def\u958b\u62d3\u306e\u91d1\u984d\u30ea\u30b9\u30c8\uff08\u5186\uff09","api.v_jz_project_sales_devs.amount","4-2.amount")
-B.Ll=new A.aB("jz.project.sales_devs[].action","\u8ca9\u8def\u958b\u62d3\u306e\u65bd\u7b56\u5185\u5bb9\u30ea\u30b9\u30c8","api.v_jz_project_sales_devs.action","4-2.action")
-B.L6=new A.aB("jz.project.sales_devs[].effect","\u8ca9\u8def\u958b\u62d3\u306e\u671f\u5f85\u3059\u308b\u52b9\u679c\u30ea\u30b9\u30c8","api.v_jz_project_sales_devs.effect","4-2.effect")
-B.Ku=new A.aB("jz.project.capex[].background","\u8a2d\u5099\u6295\u8cc7\u306e\u80cc\u666f\u30ea\u30b9\u30c8","api.v_jz_project_capex.background","4-3.background")
-B.Kq=new A.aB("jz.project.capex[].target","\u8a2d\u5099\u6295\u8cc7\u306e\u88dc\u52a9\u91d1\u5bfe\u8c61\u30ea\u30b9\u30c8","api.v_jz_project_capex.target / order_index \u6607\u9806","4-3.target")
-B.KV=new A.aB("jz.project.capex[].amount","\u8a2d\u5099\u6295\u8cc7\u306e\u91d1\u984d\u30ea\u30b9\u30c8\uff08\u5186\uff09","api.v_jz_project_capex.amount","4-3.amount")
-B.Lj=new A.aB("jz.project.capex[].action","\u8a2d\u5099\u6295\u8cc7\u306e\u65bd\u7b56\u5185\u5bb9\u30ea\u30b9\u30c8","api.v_jz_project_capex.action","4-3.action")
+B.OP=s([B.Vf,B.UN,B.V6],A.at("C<+needs,seg(i,i)>"))
+B.L3=new A.aB("jz.header.project_name","\u88dc\u52a9\u4e8b\u696d\u540d",null,"4-1")
+B.Kc=new A.aB("jz.project.sales_devs[].background","\u8ca9\u8def\u958b\u62d3\u306e\u80cc\u666f\u30ea\u30b9\u30c8","api.v_jz_project_sales_devs.background","4-2.background")
+B.KC=new A.aB("jz.project.sales_devs[].target","\u8ca9\u8def\u958b\u62d3\u306e\u88dc\u52a9\u91d1\u5bfe\u8c61\u30ea\u30b9\u30c8","api.v_jz_project_sales_devs.target / order_index \u6607\u9806","4-2.target")
+B.Kv=new A.aB("jz.project.sales_devs[].amount","\u8ca9\u8def\u958b\u62d3\u306e\u91d1\u984d\u30ea\u30b9\u30c8\uff08\u5186\uff09","api.v_jz_project_sales_devs.amount","4-2.amount")
+B.Lk=new A.aB("jz.project.sales_devs[].action","\u8ca9\u8def\u958b\u62d3\u306e\u65bd\u7b56\u5185\u5bb9\u30ea\u30b9\u30c8","api.v_jz_project_sales_devs.action","4-2.action")
+B.L4=new A.aB("jz.project.sales_devs[].effect","\u8ca9\u8def\u958b\u62d3\u306e\u671f\u5f85\u3059\u308b\u52b9\u679c\u30ea\u30b9\u30c8","api.v_jz_project_sales_devs.effect","4-2.effect")
+B.Ky=new A.aB("jz.project.capex[].background","\u8a2d\u5099\u6295\u8cc7\u306e\u80cc\u666f\u30ea\u30b9\u30c8","api.v_jz_project_capex.background","4-3.background")
+B.Kt=new A.aB("jz.project.capex[].target","\u8a2d\u5099\u6295\u8cc7\u306e\u88dc\u52a9\u91d1\u5bfe\u8c61\u30ea\u30b9\u30c8","api.v_jz_project_capex.target / order_index \u6607\u9806","4-3.target")
+B.KW=new A.aB("jz.project.capex[].amount","\u8a2d\u5099\u6295\u8cc7\u306e\u91d1\u984d\u30ea\u30b9\u30c8\uff08\u5186\uff09","api.v_jz_project_capex.amount","4-3.amount")
+B.Lh=new A.aB("jz.project.capex[].action","\u8a2d\u5099\u6295\u8cc7\u306e\u65bd\u7b56\u5185\u5bb9\u30ea\u30b9\u30c8","api.v_jz_project_capex.action","4-3.action")
 B.La=new A.aB("jz.project.capex[].effect","\u8a2d\u5099\u6295\u8cc7\u306e\u671f\u5f85\u3059\u308b\u52b9\u679c\u30ea\u30b9\u30c8","api.v_jz_project_capex.effect","4-3.effect")
-B.Ks=new A.aB("jz.header.funding_method","\u8cc7\u91d1\u8abf\u9054\u306e\u65b9\u6cd5",null,"4-4")
-B.OP=s([B.L5,B.Ke,B.Ky,B.Kr,B.Ll,B.L6,B.Ku,B.Kq,B.KV,B.Lj,B.La,B.Ks],t.Bb)
+B.Kw=new A.aB("jz.header.funding_method","\u8cc7\u91d1\u8abf\u9054\u306e\u65b9\u6cd5",null,"4-4")
+B.OQ=s([B.L3,B.Kc,B.KC,B.Kv,B.Lk,B.L4,B.Ky,B.Kt,B.KW,B.Lh,B.La,B.Kw],t.Bb)
 B.b_=new A.fj(0,"icon")
 B.bc=new A.fj(1,"input")
 B.am=new A.fj(2,"label")
@@ -109848,7 +109881,7 @@ B.b6=new A.fj(7,"suffixIcon")
 B.cf=new A.fj(8,"helperError")
 B.cD=new A.fj(9,"counter")
 B.d0=new A.fj(10,"container")
-B.OU=s([B.b_,B.bc,B.am,B.bj,B.bk,B.bl,B.as,B.b6,B.cf,B.cD,B.d0],A.at("C<fj>"))
+B.OV=s([B.b_,B.bc,B.am,B.bj,B.bk,B.bl,B.as,B.b6,B.cf,B.cD,B.d0],A.at("C<fj>"))
 B.Qc=new A.ov("en","US")
 B.qI=s([B.Qc],t.ss)
 B.a69=new A.nn(0,0)
@@ -109862,7 +109895,7 @@ B.E1=new A.No(2,"outer")
 B.oQ=new A.K(0.09803921568627451,0,0,0,B.e)
 B.f=new A.f(0,0)
 B.EF=new A.bB(0.2,B.E1,B.oQ,B.f,11)
-B.P4=s([B.EF],t.E)
+B.P5=s([B.EF],t.E)
 B.F4=new A.iQ("manufacturing_factory","\u88fd\u9020\u696d\uff08\u751f\u7523\u62e0\u70b9\u578b\uff09","industry:manufacturing_factory")
 B.F3=new A.iQ("retail_store","\u5c0f\u58f2\u696d\uff08\u7269\u8ca9\uff09","industry:retail_store")
 B.F2=new A.iQ("service_store","\u30b5\u30fc\u30d3\u30b9\u696d\uff08\u5e97\u8217\u578b\uff09","industry:service_store")
@@ -109873,17 +109906,17 @@ B.iu=s([B.F4,B.F3,B.F2,B.F1,B.F5,B.F6],A.at("C<iQ>"))
 B.pc=new A.K(0.058823529411764705,0,0,0,B.e)
 B.iO=new A.f(0,6)
 B.ER=new A.bB(0,B.a5,B.pc,B.iO,12)
-B.P5=s([B.ER],t.E)
+B.P6=s([B.ER],t.E)
 B.Yc=new A.G2(0,"left")
 B.Yd=new A.G2(1,"right")
-B.P6=s([B.Yc,B.Yd],A.at("C<G2>"))
+B.P7=s([B.Yc,B.Yd],A.at("C<G2>"))
 B.YI=new A.eK("Value\uff08\u9001\u4fe1\u7528\uff09",null,null)
 B.YJ=new A.eK("Value + label",null,null)
 B.Yw=new A.eK("Catalog\uff08\u5b9a\u7fa9\uff09",null,null)
 B.YF=new A.eK("Payload\uff08\u5168\u90e8\uff09",null,null)
-B.P7=s([B.YI,B.YJ,B.Yw,B.YF],t.p)
+B.P8=s([B.YI,B.YJ,B.Yw,B.YF],t.p)
 B.aJ=new A.Gh(0,"upstream")
-B.P9=s([B.aJ,B.m],A.at("C<Gh>"))
+B.Pa=s([B.aJ,B.m],A.at("C<Gh>"))
 B.bh=new A.tP(0,"rtl")
 B.aF=new A.tP(1,"ltr")
 B.lR=s([B.bh,B.aF],A.at("C<tP>"))
@@ -109891,11 +109924,11 @@ B.d2=new A.kq(0,"leading")
 B.bY=new A.kq(1,"title")
 B.d3=new A.kq(2,"subtitle")
 B.e2=new A.kq(3,"trailing")
-B.Pf=s([B.d2,B.bY,B.d3,B.e2],A.at("C<kq>"))
+B.Pg=s([B.d2,B.bY,B.d3,B.e2],A.at("C<kq>"))
 B.Gt=new A.qm(0,"auto")
 B.Gu=new A.qm(1,"full")
 B.Gv=new A.qm(2,"chromium")
-B.Ph=s([B.Gt,B.Gu,B.Gv,B.ed],A.at("C<qm>"))
+B.Pi=s([B.Gt,B.Gu,B.Gv,B.ed],A.at("C<qm>"))
 B.nU=new A.lF(0,"common")
 B.Mo=new A.bQ(B.fx,null,null,null,null)
 B.a2O=new A.am("\u5171\u901a\u30eb\u30fc\u30eb",null,null,null,null,null,null,null,null,null)
@@ -109903,9 +109936,9 @@ B.F9=new A.m1(B.nU,B.Mo,B.a2O,t.jC)
 B.Dx=new A.lF(1,"section")
 B.a3a=new A.am("\u30bb\u30af\u30b7\u30e7\u30f3",null,null,null,null,null,null,null,null,null)
 B.Fa=new A.m1(B.Dx,B.qp,B.a3a,t.jC)
-B.Pi=s([B.F9,B.Fa],A.at("C<m1<lF>>"))
+B.Pj=s([B.F9,B.Fa],A.at("C<m1<lF>>"))
 B.bJ=new A.hn(1,"fuchsia")
-B.Pj=s([B.aB,B.bJ,B.a0,B.bK,B.bb,B.bL],A.at("C<hn>"))
+B.Pk=s([B.aB,B.bJ,B.a0,B.bK,B.bb,B.bL],A.at("C<hn>"))
 B.Db=new A.yB(0,"topLeft")
 B.De=new A.yB(3,"bottomRight")
 B.a64=new A.nm(B.Db,B.De)
@@ -109914,7 +109947,7 @@ B.Dc=new A.yB(1,"topRight")
 B.Dd=new A.yB(2,"bottomLeft")
 B.a65=new A.nm(B.Dc,B.Dd)
 B.a66=new A.nm(B.Dd,B.Dc)
-B.Pk=s([B.a64,B.a67,B.a65,B.a66],A.at("C<nm>"))
+B.Pl=s([B.a64,B.a67,B.a65,B.a66],A.at("C<nm>"))
 B.V8=new A.al(0.01339448,0.05994973)
 B.V7=new A.al(0.13664115,0.13592082)
 B.US=new A.al(0.24545546,0.14099516)
@@ -109933,47 +109966,47 @@ B.qK=s([B.V8,B.V7,B.US,B.UV,B.V3,B.UK,B.UQ,B.UT,B.UO,B.V0,B.Vb,B.UP,B.UL,B.V1],A
 B.Vj=new A.us(["","3","400,000","7,000,000","\u958b\u696d\u521d\u671f\u300210\u30f6\u6708\u6c7a\u7b97\u3002\u9867\u5ba2\u57fa\u76e4\u5f62\u6210\u671f","2021\u5e74"])
 B.Vi=new A.us(["","3","500,000","7,800,000","\u30b9\u30a4\u30fc\u30c4\u62e1\u5145\u304c\u5bc4\u4e0e","2022\u5e74"])
 B.Vh=new A.us(["8,500","3","600,000","8,500,000","\u7269\u8ca9\u5f37\u5316\u3068\u9867\u5ba2\u6570\u5897","2023\u5e74"])
-B.Pl=s([B.Vj,B.Vi,B.Vh],A.at("C<+cus,emp,op,rev,sum,y(i,i,i,i,i,i)>"))
-B.Po=s(["\u73fe\u5728\u306e\u4f01\u696d\u6982\u8981","\u73fe\u5728\u306e\u7d4c\u55b6\u72b6\u6cc1","\u4eca\u5f8c\u306e\u7d4c\u55b6\u65b9\u91dd","\u88dc\u52a9\u4e8b\u696d","\u76ee\u6a19"],t.s)
-B.Pp=s(["\u5bfe\u9762\u62e0\u70b9\uff08\u6765\u5e97\u30fb\u6765\u5834\uff09","\u5bfe\u9762\u62e0\u70b9\uff08\u30c6\u30a4\u30af\u30a2\u30a6\u30c8\uff09","\u30aa\u30f3\u30e9\u30a4\u30f3\u63d0\u4f9b\uff08EC\u30fbWeb\u30fb\u30a2\u30d7\u30ea\uff09","\u8a2a\u554f\u30fb\u51fa\u5f35\u30b5\u30fc\u30d3\u30b9","\u5378\u58f2\u30fbBtoB\u4f9b\u7d66","\u76f4\u8ca9\u55b6\u696d\uff08\u6cd5\u4eba\u5411\u3051\u30bb\u30fc\u30eb\u30b9\uff09","\u79fb\u52d5\u578b\u30b5\u30fc\u30d3\u30b9\uff08\u8eca\u4e21\u30fb\u30a4\u30d9\u30f3\u30c8\u7b49\uff09","\u305d\u306e\u4ed6\uff08\u81ea\u7531\u8a18\u8ff0\uff09"],t.s)
-B.Pq=s(["click","scroll"],t.s)
+B.Pm=s([B.Vj,B.Vi,B.Vh],A.at("C<+cus,emp,op,rev,sum,y(i,i,i,i,i,i)>"))
+B.Pp=s(["\u73fe\u5728\u306e\u4f01\u696d\u6982\u8981","\u73fe\u5728\u306e\u7d4c\u55b6\u72b6\u6cc1","\u4eca\u5f8c\u306e\u7d4c\u55b6\u65b9\u91dd","\u88dc\u52a9\u4e8b\u696d","\u76ee\u6a19"],t.s)
+B.Pq=s(["\u5bfe\u9762\u62e0\u70b9\uff08\u6765\u5e97\u30fb\u6765\u5834\uff09","\u5bfe\u9762\u62e0\u70b9\uff08\u30c6\u30a4\u30af\u30a2\u30a6\u30c8\uff09","\u30aa\u30f3\u30e9\u30a4\u30f3\u63d0\u4f9b\uff08EC\u30fbWeb\u30fb\u30a2\u30d7\u30ea\uff09","\u8a2a\u554f\u30fb\u51fa\u5f35\u30b5\u30fc\u30d3\u30b9","\u5378\u58f2\u30fbBtoB\u4f9b\u7d66","\u76f4\u8ca9\u55b6\u696d\uff08\u6cd5\u4eba\u5411\u3051\u30bb\u30fc\u30eb\u30b9\uff09","\u79fb\u52d5\u578b\u30b5\u30fc\u30d3\u30b9\uff08\u8eca\u4e21\u30fb\u30a4\u30d9\u30f3\u30c8\u7b49\uff09","\u305d\u306e\u4ed6\uff08\u81ea\u7531\u8a18\u8ff0\uff09"],t.s)
+B.Pr=s(["click","scroll"],t.s)
 B.Fg=new A.nK()
 B.h_=new A.SB(1,"page")
 B.j2=new A.eZ(B.aN,B.h_)
-B.Pr=s([B.Fg,B.j2],A.at("C<b9>"))
-B.PH=s([],t.QP)
-B.PD=s([],t.Ug)
+B.Ps=s([B.Fg,B.j2],A.at("C<b9>"))
+B.PI=s([],t.QP)
+B.PE=s([],t.Ug)
 B.qL=s([],A.at("C<bcN>"))
-B.Px=s([],t.D)
-B.Pz=s([],t.fJ)
-B.Pw=s([],t.ER)
+B.Py=s([],t.D)
+B.PA=s([],t.fJ)
+B.Px=s([],t.ER)
 B.a7x=s([],t.ss)
 B.lT=s([],t.H7)
-B.PB=s([],t.tc)
+B.PC=s([],t.tc)
 B.iw=s([],t.jl)
-B.PL=s([],t.wi)
-B.PJ=s([],A.at("C<fx<@>>"))
-B.PE=s([],A.at("C<ec>"))
+B.PM=s([],t.wi)
+B.PK=s([],A.at("C<fx<@>>"))
+B.PF=s([],A.at("C<ec>"))
 B.lS=s([],t.AO)
-B.PK=s([],t.yo)
+B.PL=s([],t.yo)
 B.iv=s([],t.i3)
 B.lV=s([],t.K1)
-B.PG=s([],t.D1)
+B.PH=s([],t.D1)
 B.lU=s([],t.QF)
-B.Pv=s([],t.Lx)
-B.PA=s([],t.fm)
-B.PF=s([],t.p)
-B.PC=s([],A.at("C<ht>"))
-B.Pt=s([],t.t)
+B.Pw=s([],t.Lx)
+B.PB=s([],t.fm)
+B.PG=s([],t.p)
+B.PD=s([],A.at("C<ht>"))
+B.Pu=s([],t.t)
 B.fD=s([],t.ee)
-B.Py=s([],t.XS)
-B.PQ=s([B.q2,B.q3,B.q4,B.q5,B.q6],A.at("C<iW>"))
+B.Pz=s([],t.XS)
+B.PR=s([B.q2,B.q3,B.q4,B.q5,B.q6],A.at("C<iW>"))
 B.fR=new A.f(0,2)
 B.ED=new A.bB(0.75,B.a5,B.oQ,B.fR,1.5)
-B.PT=s([B.ED],t.E)
+B.PU=s([B.ED],t.E)
 B.H3=new A.K(0.06666666666666667,0,0,0,B.e)
 B.EK=new A.bB(0,B.a5,B.H3,B.iO,10)
-B.Q_=s([B.EK],t.E)
+B.Q0=s([B.EK],t.E)
 B.fE=s([B.dp,B.cF,B.ht,B.hu,B.k6],t.QP)
 B.qM=s(["profiles","public_profiles"],t.s)
 B.lJ=new A.iY(0,100)
@@ -109983,39 +110016,6 @@ B.aw=new A.iY(4,500)
 B.ih=new A.iY(7,800)
 B.lK=new A.iY(8,900)
 B.qN=s([B.lJ,B.Lq,B.Lr,B.D,B.aw,B.dd,B.cn,B.ih,B.lK],A.at("C<iY>"))
-B.KZ=new A.aB("jz.targets.existing.y1_sales","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09",null,"5-1.y1_sales")
-B.L3=new A.aB("jz.targets.existing.y1_operating_profit","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u55b6\u696d\u5229\u76ca\uff08\u5186\uff09",null,"5-1.y1_operating_profit")
-B.Le=new A.aB("jz.targets.existing.y1_staff_count","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u5f93\u696d\u54e1\u6570",null,"5-1.y1_staff_count")
-B.KT=new A.aB("jz.targets.existing.y1_customer_count","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570",null,"5-1.y1_customer_count")
-B.KO=new A.aB("jz.targets.existing.y5_sales","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09",null,"5-1.y5_sales")
-B.KH=new A.aB("jz.targets.existing.y5_operating_profit","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u55b6\u696d\u5229\u76ca\uff08\u5186\uff09",null,"5-1.y5_operating_profit")
-B.KQ=new A.aB("jz.targets.existing.y5_staff_count","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u5f93\u696d\u54e1\u6570",null,"5-1.y5_staff_count")
-B.KP=new A.aB("jz.targets.existing.y5_customer_count","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570",null,"5-1.y5_customer_count")
-B.KW=new A.aB("jz.targets.existing.y1_sales_note","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y1_sales_note")
-B.K1=new A.aB("jz.targets.existing.y1_operating_profit_note","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u55b6\u696d\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y1_operating_profit_note")
-B.Kg=new A.aB("jz.targets.existing.y1_staff_count_note","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u5f93\u696d\u54e1\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y1_staff_count_note")
-B.KM=new A.aB("jz.targets.existing.y1_customer_count_note","\u3010\u65e2\u5b58\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y1_customer_count_note")
-B.KB=new A.aB("jz.targets.existing.y5_sales_note","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y5_sales_note")
-B.L0=new A.aB("jz.targets.existing.y5_operating_profit_note","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u55b6\u696d\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y5_operating_profit_note")
-B.Lb=new A.aB("jz.targets.existing.y5_staff_count_note","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u5f93\u696d\u54e1\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y5_staff_count_note")
-B.Kn=new A.aB("jz.targets.existing.y5_customer_count_note","\u3010\u65e2\u5b58\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-1.y5_customer_count_note")
-B.Kp=new A.aB("jz.targets.new.y1_sales","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09",null,"5-2.y1_sales")
-B.K3=new A.aB("jz.targets.new.y1_operating_profit","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u55b6\u696d\u5229\u76ca\uff08\u5186\uff09",null,"5-2.y1_operating_profit")
-B.KF=new A.aB("jz.targets.new.y1_staff_count","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u5f93\u696d\u54e1\u6570",null,"5-2.y1_staff_count")
-B.K9=new A.aB("jz.targets.new.y1_customer_count","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570",null,"5-2.y1_customer_count")
-B.Lc=new A.aB("jz.targets.new.y5_sales","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\uff08\u5186\uff09",null,"5-2.y5_sales")
-B.KU=new A.aB("jz.targets.new.y5_operating_profit","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u55b6\u696d\u5229\u76ca\uff08\u5186\uff09",null,"5-2.y5_operating_profit")
-B.KN=new A.aB("jz.targets.new.y5_staff_count","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u5f93\u696d\u54e1\u6570",null,"5-2.y5_staff_count")
-B.Ko=new A.aB("jz.targets.new.y5_customer_count","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570",null,"5-2.y5_customer_count")
-B.KI=new A.aB("jz.targets.new.y1_sales_note","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y1_sales_note")
-B.Kd=new A.aB("jz.targets.new.y1_operating_profit_note","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u55b6\u696d\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y1_operating_profit_note")
-B.KX=new A.aB("jz.targets.new.y1_staff_count_note","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u5f93\u696d\u54e1\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y1_staff_count_note")
-B.Lg=new A.aB("jz.targets.new.y1_customer_count_note","\u3010\u65b0\u898f\u30111\u5e74\u76ee \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y1_customer_count_note")
-B.Kk=new A.aB("jz.targets.new.y5_sales_note","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u58f2\u4e0a\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y5_sales_note")
-B.K8=new A.aB("jz.targets.new.y5_operating_profit_note","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u55b6\u696d\u5229\u76ca\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y5_operating_profit_note")
-B.KK=new A.aB("jz.targets.new.y5_staff_count_note","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u5f93\u696d\u54e1\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y5_staff_count_note")
-B.K2=new A.aB("jz.targets.new.y5_customer_count_note","\u3010\u65b0\u898f\u30115\u5e74\u5f8c \u76ee\u6a19\u9867\u5ba2\u6570\u306e\u6839\u62e0\u30fb\u30e1\u30e2",null,"5-2.y5_customer_count_note")
-B.Q5=s([B.KZ,B.L3,B.Le,B.KT,B.KO,B.KH,B.KQ,B.KP,B.KW,B.K1,B.Kg,B.KM,B.KB,B.L0,B.Lb,B.Kn,B.Kp,B.K3,B.KF,B.K9,B.Lc,B.KU,B.KN,B.Ko,B.KI,B.Kd,B.KX,B.Lg,B.Kk,B.K8,B.KK,B.K2],t.Bb)
 B.ex=new A.im(0,"controlModifier")
 B.ey=new A.im(1,"shiftModifier")
 B.ez=new A.im(2,"altModifier")
@@ -110027,18 +110027,18 @@ B.mg=new A.im(7,"functionModifier")
 B.wV=new A.im(8,"symbolModifier")
 B.qO=s([B.ex,B.ey,B.ez,B.eA,B.md,B.me,B.mf,B.mg,B.wV],A.at("C<im>"))
 B.lW=s([!0,!1],t.HZ)
-B.Kv=new A.aB("jz.new_business.policy_mode","\u4eca\u5f8c\u306e\u65b9\u91dd\u306e\u5bfe\u8c61","existing / new \u306e2\u5024\u3002'existing' = \u65e2\u5b58\u4e8b\u696d\u306e\u5f37\u5316, 'new' = \u65b0\u898f\u4e8b\u696d\u306e\u958b\u767a","3-1")
-B.Kb=new A.aB("jz.header.future_policy","\u4eca\u5f8c\u306e\u7d4c\u55b6\u65b9\u91dd",null,"3-2")
-B.Li=new A.aB("jz.new_business.business_type","\u65b0\u898f\u4e8b\u696d\u306e\u7a2e\u985e","1-1 \u3068\u540c\u3058\u30ab\u30c6\u30b4\u30ea\u304b\u3089\u306e\u9078\u629e\u80a2","3-3")
-B.Kw=new A.aB("jz.new_business.channels","\u65b0\u898f\u4e8b\u696d\u306e\u63d0\u4f9b\u30c1\u30e3\u30cd\u30eb","text[]\uff0f\u8907\u6570\u9078\u629e\uff0f\u300c\u305d\u306e\u4ed6:xxx\u300d\u5f62\u5f0f\u3092\u542b\u3080","3-4")
-B.L1=new A.aB("jz.new_business.contents[].business_name","\u65b0\u898f\u4e8b\u696d\u306e\u4e8b\u696d\u540d\u30ea\u30b9\u30c8","project_new_business.business_items(JSONB) \u306e name \u3092 order_index \u6607\u9806\u3067\u4e26\u3079\u305f\u914d\u5217","3-5.business_name")
-B.KG=new A.aB("jz.new_business.contents[].menu","\u65b0\u898f\u4e8b\u696d\u306e\u30e1\u30cb\u30e5\u30fc\u30fb\u30b5\u30fc\u30d3\u30b9\u5185\u5bb9\u30ea\u30b9\u30c8","project_new_business.business_items(JSONB) \u306e menu \u3092 order_index \u6607\u9806\u3067\u4e26\u3079\u305f\u914d\u5217","3-5.menu")
+B.Kz=new A.aB("jz.new_business.policy_mode","\u4eca\u5f8c\u306e\u65b9\u91dd\u306e\u5bfe\u8c61","existing / new \u306e2\u5024\u3002'existing' = \u65e2\u5b58\u4e8b\u696d\u306e\u5f37\u5316, 'new' = \u65b0\u898f\u4e8b\u696d\u306e\u958b\u767a","3-1")
+B.Ka=new A.aB("jz.header.future_policy","\u4eca\u5f8c\u306e\u7d4c\u55b6\u65b9\u91dd",null,"3-2")
+B.Lg=new A.aB("jz.new_business.business_type","\u65b0\u898f\u4e8b\u696d\u306e\u7a2e\u985e","1-1 \u3068\u540c\u3058\u30ab\u30c6\u30b4\u30ea\u304b\u3089\u306e\u9078\u629e\u80a2","3-3")
+B.KA=new A.aB("jz.new_business.channels","\u65b0\u898f\u4e8b\u696d\u306e\u63d0\u4f9b\u30c1\u30e3\u30cd\u30eb","text[]\uff0f\u8907\u6570\u9078\u629e\uff0f\u300c\u305d\u306e\u4ed6:xxx\u300d\u5f62\u5f0f\u3092\u542b\u3080","3-4")
+B.L0=new A.aB("jz.new_business.contents[].business_name","\u65b0\u898f\u4e8b\u696d\u306e\u4e8b\u696d\u540d\u30ea\u30b9\u30c8","project_new_business.business_items(JSONB) \u306e name \u3092 order_index \u6607\u9806\u3067\u4e26\u3079\u305f\u914d\u5217","3-5.business_name")
+B.KL=new A.aB("jz.new_business.contents[].menu","\u65b0\u898f\u4e8b\u696d\u306e\u30e1\u30cb\u30e5\u30fc\u30fb\u30b5\u30fc\u30d3\u30b9\u5185\u5bb9\u30ea\u30b9\u30c8","project_new_business.business_items(JSONB) \u306e menu \u3092 order_index \u6607\u9806\u3067\u4e26\u3079\u305f\u914d\u5217","3-5.menu")
 B.KY=new A.aB("jz.new_business.contents[].unit_price","\u65b0\u898f\u4e8b\u696d\u306e\u5ba2\u5358\u4fa1\u30ea\u30b9\u30c8\uff08\u5186\uff09","project_new_business.business_items(JSONB) \u306e unit_price \u3092 order_index \u6607\u9806\u3067\u4e26\u3079\u305f\u914d\u5217","3-5.unit_price")
 B.K6=new A.aB("jz.new_business.segments[].segment_name","\u65b0\u898f\u4e8b\u696d\u306e\u9867\u5ba2\u5c64\u540d\u30ea\u30b9\u30c8","project_new_business.customer_segments(JSONB) \u306e name \u3092 order_index \u6607\u9806\u3067\u4e26\u3079\u305f\u914d\u5217","3-6.segment_name")
-B.Kc=new A.aB("jz.new_business.segments[].needs","\u65b0\u898f\u4e8b\u696d\u306e\u9867\u5ba2\u30cb\u30fc\u30ba\u30fb\u7279\u5fb4\u30ea\u30b9\u30c8","project_new_business.customer_segments(JSONB) \u306e needs \u3092 order_index \u6607\u9806\u3067\u4e26\u3079\u305f\u914d\u5217","3-6.needs")
-B.Lk=new A.aB("jz.new_business.strengths","\u65b0\u898f\u4e8b\u696d\u306e\u5f37\u307f",null,"3-7")
-B.Kl=new A.aB("jz.new_business.competition_status","\u7af6\u5408\u306e\u72b6\u6cc1",null,"3-8")
-B.Q6=s([B.Kv,B.Kb,B.Li,B.Kw,B.L1,B.KG,B.KY,B.K6,B.Kc,B.Lk,B.Kl],t.Bb)
+B.Kb=new A.aB("jz.new_business.segments[].needs","\u65b0\u898f\u4e8b\u696d\u306e\u9867\u5ba2\u30cb\u30fc\u30ba\u30fb\u7279\u5fb4\u30ea\u30b9\u30c8","project_new_business.customer_segments(JSONB) \u306e needs \u3092 order_index \u6607\u9806\u3067\u4e26\u3079\u305f\u914d\u5217","3-6.needs")
+B.Li=new A.aB("jz.new_business.strengths","\u65b0\u898f\u4e8b\u696d\u306e\u5f37\u307f",null,"3-7")
+B.Kn=new A.aB("jz.new_business.competition_status","\u7af6\u5408\u306e\u72b6\u6cc1",null,"3-8")
+B.Q6=s([B.Kz,B.Ka,B.Lg,B.KA,B.L0,B.KL,B.KY,B.K6,B.Kb,B.Li,B.Kn],t.Bb)
 B.AN=new A.dc(0,"abstime")
 B.AO=new A.dc(1,"bool")
 B.AZ=new A.dc(2,"date")
@@ -110067,16 +110067,16 @@ B.Q8=s([B.AN,B.AO,B.AZ,B.B3,B.B4,B.B5,B.B6,B.B7,B.B8,B.B9,B.AP,B.AQ,B.AR,B.AS,B.
 B.Q9=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.EH=new A.bB(0,B.a5,B.pc,B.fR,6)
 B.Qa=s([B.EH],t.E)
-B.Ka=new A.aB("jz.header.business_type","\u4e8b\u696d\u306e\u7a2e\u985e",null,"1-1")
-B.L9=new A.aB("jz.header.business_category","\u696d\u614b\u30ab\u30c6\u30b4\u30ea",null,"1-2")
-B.L4=new A.aB("jz.header.channels","\u63d0\u4f9b\u30c1\u30e3\u30cd\u30eb","text[]\uff0f\u8907\u6570\u9078\u629e\uff0f\u300c\u305d\u306e\u4ed6:xxx\u300d\u5f62\u5f0f\u3092\u542b\u3080","1-3")
-B.L7=new A.aB("jz.header.overview","\u4e8b\u696d\u6982\u8981",null,"1-4")
-B.L8=new A.aB("jz.header.address","\u4f4f\u6240",null,"1-5")
-B.Ld=new A.aB("jz.header.location","\u7acb\u5730\uff08\u6700\u5bc4\u99c5\u30fb\u5f92\u6b69\u5206\u306a\u3069\uff09",null,"1-6")
+B.K9=new A.aB("jz.header.business_type","\u4e8b\u696d\u306e\u7a2e\u985e",null,"1-1")
+B.L8=new A.aB("jz.header.business_category","\u696d\u614b\u30ab\u30c6\u30b4\u30ea",null,"1-2")
+B.L2=new A.aB("jz.header.channels","\u63d0\u4f9b\u30c1\u30e3\u30cd\u30eb","text[]\uff0f\u8907\u6570\u9078\u629e\uff0f\u300c\u305d\u306e\u4ed6:xxx\u300d\u5f62\u5f0f\u3092\u542b\u3080","1-3")
+B.L5=new A.aB("jz.header.overview","\u4e8b\u696d\u6982\u8981",null,"1-4")
+B.L7=new A.aB("jz.header.address","\u4f4f\u6240",null,"1-5")
+B.Lc=new A.aB("jz.header.location","\u7acb\u5730\uff08\u6700\u5bc4\u99c5\u30fb\u5f92\u6b69\u5206\u306a\u3069\uff09",null,"1-6")
 B.K4=new A.aB("jz.header.strengths","\u81ea\u793e\u306e\u5f37\u307f",null,"1-7")
-B.KR=new A.aB("jz.header.company_issues","\u81ea\u793e\u306e\u8ab2\u984c",null,"1-8")
-B.L2=new A.aB("jz.header.competition_status","\u7af6\u5408\u306e\u72b6\u6cc1",null,"1-9")
-B.Qb=s([B.Ka,B.L9,B.L4,B.L7,B.L8,B.Ld,B.K4,B.KR,B.L2],t.Bb)
+B.KT=new A.aB("jz.header.company_issues","\u81ea\u793e\u306e\u8ab2\u984c",null,"1-8")
+B.L1=new A.aB("jz.header.competition_status","\u7af6\u5408\u306e\u72b6\u6cc1",null,"1-9")
+B.Qb=s([B.K9,B.L8,B.L2,B.L5,B.L7,B.Lc,B.K4,B.KT,B.L1],t.Bb)
 B.t=new A.Dh(0,"ignored")
 B.bf=new A.j(4294967304)
 B.fG=new A.j(4294967323)
@@ -110110,23 +110110,23 @@ B.r=new A.Qo(1,"max")
 B.RF=new A.mD(B.f4,B.f4,A.at("mD<i,i>"))
 B.SD={in:0,iw:1,ji:2,jw:3,mo:4,aam:5,adp:6,aue:7,ayx:8,bgm:9,bjd:10,ccq:11,cjr:12,cka:13,cmk:14,coy:15,cqu:16,drh:17,drw:18,gav:19,gfx:20,ggn:21,gti:22,guv:23,hrr:24,ibi:25,ilw:26,jeg:27,kgc:28,kgh:29,koj:30,krm:31,ktr:32,kvs:33,kwq:34,kxe:35,kzj:36,kzt:37,lii:38,lmm:39,meg:40,mst:41,mwj:42,myt:43,nad:44,ncp:45,nnx:46,nts:47,oun:48,pcr:49,pmc:50,pmu:51,ppa:52,ppr:53,pry:54,puz:55,sca:56,skk:57,tdu:58,thc:59,thx:60,tie:61,tkk:62,tlw:63,tmp:64,tne:65,tnf:66,tsf:67,uok:68,xba:69,xia:70,xkh:71,xsj:72,ybd:73,yma:74,ymt:75,yos:76,yuu:77}
 B.cs=new A.bM(B.SD,["id","he","yi","jv","ro","aas","dz","ktz","nun","bcg","drl","rki","mom","cmr","xch","pij","quh","khk","prs","dev","vaj","gvr","nyc","duz","jal","opa","gal","oyb","tdf","kml","kwv","bmf","dtp","gdj","yam","tvd","dtp","dtp","raq","rmx","cir","mry","vaj","mry","xny","kdz","ngv","pij","vaj","adx","huw","phr","bfy","lcq","prt","pub","hle","oyb","dtp","tpo","oyb","ras","twm","weo","tyj","kak","prs","taj","ema","cax","acn","waw","suj","rki","lrr","mtm","zom","yug"],t.li)
-B.PI=s([],t.E)
+B.PJ=s([],t.E)
 B.ci=new A.K(0.2,0,0,0,B.e)
 B.EC=new A.bB(-1,B.a5,B.ci,B.fR,1)
 B.cj=new A.K(0.1411764705882353,0,0,0,B.e)
 B.cu=new A.f(0,1)
 B.Et=new A.bB(0,B.a5,B.cj,B.cu,1)
 B.EB=new A.bB(0,B.a5,B.c2,B.cu,3)
-B.Q1=s([B.EC,B.Et,B.EB],t.E)
+B.Q2=s([B.EC,B.Et,B.EB],t.E)
 B.eD=new A.f(0,3)
 B.EA=new A.bB(-2,B.a5,B.ci,B.eD,1)
 B.EO=new A.bB(0,B.a5,B.cj,B.fR,2)
 B.Ev=new A.bB(0,B.a5,B.c2,B.cu,5)
-B.OA=s([B.EA,B.EO,B.Ev],t.E)
+B.OB=s([B.EA,B.EO,B.Ev],t.E)
 B.Eu=new A.bB(-2,B.a5,B.ci,B.eD,3)
 B.Ex=new A.bB(0,B.a5,B.cj,B.eD,4)
 B.EY=new A.bB(0,B.a5,B.c2,B.cu,8)
-B.PU=s([B.Eu,B.Ex,B.EY],t.E)
+B.PV=s([B.Eu,B.Ex,B.EY],t.E)
 B.Ez=new A.bB(-1,B.a5,B.ci,B.fR,4)
 B.wZ=new A.f(0,4)
 B.EJ=new A.bB(0,B.a5,B.cj,B.wZ,5)
@@ -110135,7 +110135,7 @@ B.NP=s([B.Ez,B.EJ,B.EE],t.E)
 B.Er=new A.bB(-1,B.a5,B.ci,B.eD,5)
 B.EP=new A.bB(0,B.a5,B.cj,B.iO,10)
 B.EX=new A.bB(0,B.a5,B.c2,B.cu,18)
-B.OG=s([B.Er,B.EP,B.EX],t.E)
+B.OH=s([B.Er,B.EP,B.EX],t.E)
 B.mj=new A.f(0,5)
 B.Ew=new A.bB(-3,B.a5,B.ci,B.mj,5)
 B.mk=new A.f(0,8)
@@ -110152,19 +110152,19 @@ B.EL=new A.bB(-4,B.a5,B.ci,B.SQ,8)
 B.SL=new A.f(0,12)
 B.EG=new A.bB(2,B.a5,B.cj,B.SL,17)
 B.EV=new A.bB(4,B.a5,B.c2,B.mj,22)
-B.OR=s([B.EL,B.EG,B.EV],t.E)
+B.OS=s([B.EL,B.EG,B.EV],t.E)
 B.EU=new A.bB(-5,B.a5,B.ci,B.mk,10)
 B.SM=new A.f(0,16)
 B.EN=new A.bB(2,B.a5,B.cj,B.SM,24)
 B.F_=new A.bB(5,B.a5,B.c2,B.iO,30)
-B.OQ=s([B.EU,B.EN,B.F_],t.E)
+B.OR=s([B.EU,B.EN,B.F_],t.E)
 B.SK=new A.f(0,11)
 B.Ey=new A.bB(-7,B.a5,B.ci,B.SK,15)
 B.SO=new A.f(0,24)
 B.ET=new A.bB(3,B.a5,B.cj,B.SO,38)
 B.EM=new A.bB(8,B.a5,B.c2,B.x_,46)
-B.P3=s([B.Ey,B.ET,B.EM],t.E)
-B.RG=new A.dt([0,B.PI,1,B.Q1,2,B.OA,3,B.PU,4,B.NP,6,B.OG,8,B.Oa,9,B.Oo,12,B.OR,16,B.OQ,24,B.P3],A.at("dt<n,O<bB>>"))
+B.P4=s([B.Ey,B.ET,B.EM],t.E)
+B.RG=new A.dt([0,B.PJ,1,B.Q2,2,B.OB,3,B.PV,4,B.NP,6,B.OH,8,B.Oa,9,B.Oo,12,B.OS,16,B.OR,24,B.P4],A.at("dt<n,O<bB>>"))
 B.cq=new A.j(4294968065)
 B.mM=new A.aq(B.cq,!1,!1,!0,!1,B.t)
 B.c9=new A.j(4294968066)
@@ -110686,57 +110686,57 @@ B.Og=s([54,null,null,8589935158],t.Z)
 B.Oh=s([55,null,null,8589935159],t.Z)
 B.Oi=s([56,null,null,8589935160],t.Z)
 B.Ok=s([57,null,null,8589935161],t.Z)
-B.Pa=s([8589934852,8589934852,8589934853,null],t.Z)
+B.Pb=s([8589934852,8589934852,8589934853,null],t.Z)
 B.NT=s([4294967555,null,4294967555,null],t.Z)
 B.NU=s([4294968065,null,null,8589935154],t.Z)
 B.NV=s([4294968066,null,null,8589935156],t.Z)
 B.NW=s([4294968067,null,null,8589935158],t.Z)
 B.NX=s([4294968068,null,null,8589935160],t.Z)
 B.O1=s([4294968321,null,null,8589935157],t.Z)
-B.Pb=s([8589934848,8589934848,8589934849,null],t.Z)
+B.Pc=s([8589934848,8589934848,8589934849,null],t.Z)
 B.NS=s([4294967423,null,null,8589935150],t.Z)
 B.NY=s([4294968069,null,null,8589935153],t.Z)
 B.NR=s([4294967309,null,null,8589935117],t.Z)
 B.NZ=s([4294968070,null,null,8589935159],t.Z)
 B.O2=s([4294968327,null,null,8589935152],t.Z)
-B.Pc=s([8589934854,8589934854,8589934855,null],t.Z)
+B.Pd=s([8589934854,8589934854,8589934855,null],t.Z)
 B.O_=s([4294968071,null,null,8589935155],t.Z)
 B.O0=s([4294968072,null,null,8589935161],t.Z)
-B.Pd=s([8589934850,8589934850,8589934851,null],t.Z)
-B.wO=new A.dt(["*",B.O3,"+",B.O4,"-",B.O5,".",B.O6,"/",B.O7,"0",B.O8,"1",B.O9,"2",B.Oc,"3",B.Od,"4",B.Oe,"5",B.Of,"6",B.Og,"7",B.Oh,"8",B.Oi,"9",B.Ok,"Alt",B.Pa,"AltGraph",B.NT,"ArrowDown",B.NU,"ArrowLeft",B.NV,"ArrowRight",B.NW,"ArrowUp",B.NX,"Clear",B.O1,"Control",B.Pb,"Delete",B.NS,"End",B.NY,"Enter",B.NR,"Home",B.NZ,"Insert",B.O2,"Meta",B.Pc,"PageDown",B.O_,"PageUp",B.O0,"Shift",B.Pd],A.at("dt<i,O<n?>>"))
+B.Pe=s([8589934850,8589934850,8589934851,null],t.Z)
+B.wO=new A.dt(["*",B.O3,"+",B.O4,"-",B.O5,".",B.O6,"/",B.O7,"0",B.O8,"1",B.O9,"2",B.Oc,"3",B.Od,"4",B.Oe,"5",B.Of,"6",B.Og,"7",B.Oh,"8",B.Oi,"9",B.Ok,"Alt",B.Pb,"AltGraph",B.NT,"ArrowDown",B.NU,"ArrowLeft",B.NV,"ArrowRight",B.NW,"ArrowUp",B.NX,"Clear",B.O1,"Control",B.Pc,"Delete",B.NS,"End",B.NY,"Enter",B.NR,"Home",B.NZ,"Insert",B.O2,"Meta",B.Pd,"PageDown",B.O_,"PageUp",B.O0,"Shift",B.Pe],A.at("dt<i,O<n?>>"))
 B.Oj=s([B.qV,null,null,B.wB],t.L)
-B.PN=s([B.wn,null,null,B.wC],t.L)
-B.ON=s([B.wo,null,null,B.wD],t.L)
-B.Pe=s([B.wp,null,null,B.dM],t.L)
+B.PO=s([B.wn,null,null,B.wC],t.L)
+B.OO=s([B.wo,null,null,B.wD],t.L)
+B.Pf=s([B.wp,null,null,B.dM],t.L)
 B.NK=s([B.wq,null,null,B.wE],t.L)
-B.Q2=s([B.wr,null,null,B.m6],t.L)
-B.PZ=s([B.ws,null,null,B.fN],t.L)
+B.Q3=s([B.wr,null,null,B.m6],t.L)
+B.Q_=s([B.ws,null,null,B.fN],t.L)
 B.Oq=s([B.wt,null,null,B.dN],t.L)
 B.Q7=s([B.wu,null,null,B.fO],t.L)
-B.PY=s([B.wv,null,null,B.dO],t.L)
+B.PZ=s([B.wv,null,null,B.dO],t.L)
 B.On=s([B.ww,null,null,B.m7],t.L)
 B.NN=s([B.wx,null,null,B.dP],t.L)
-B.OB=s([B.wy,null,null,B.fP],t.L)
-B.PO=s([B.wz,null,null,B.dQ],t.L)
-B.PR=s([B.wA,null,null,B.fQ],t.L)
-B.Os=s([B.fL,B.fL,B.iD,null],t.L)
-B.Q3=s([B.iz,null,B.iz,null],t.L)
-B.OW=s([B.cq,null,null,B.dN],t.L)
-B.OX=s([B.c9,null,null,B.dO],t.L)
-B.OY=s([B.ca,null,null,B.dP],t.L)
-B.Q4=s([B.cr,null,null,B.dQ],t.L)
-B.PW=s([B.m_,null,null,B.m7],t.L)
-B.Ot=s([B.fK,B.fK,B.iC,null],t.L)
-B.Pm=s([B.b9,null,null,B.dM],t.L)
-B.OZ=s([B.dJ,null,null,B.fN],t.L)
+B.OC=s([B.wy,null,null,B.fP],t.L)
+B.PP=s([B.wz,null,null,B.dQ],t.L)
+B.PS=s([B.wA,null,null,B.fQ],t.L)
+B.Ot=s([B.fL,B.fL,B.iD,null],t.L)
+B.Q4=s([B.iz,null,B.iz,null],t.L)
+B.OX=s([B.cq,null,null,B.dN],t.L)
+B.OY=s([B.c9,null,null,B.dO],t.L)
+B.OZ=s([B.ca,null,null,B.dP],t.L)
+B.Q5=s([B.cr,null,null,B.dQ],t.L)
+B.PX=s([B.m_,null,null,B.m7],t.L)
+B.Ou=s([B.fK,B.fK,B.iC,null],t.L)
+B.Pn=s([B.b9,null,null,B.dM],t.L)
+B.P_=s([B.dJ,null,null,B.fN],t.L)
 B.Om=s([B.iy,null,null,B.m5],t.L)
-B.P_=s([B.dK,null,null,B.fP],t.L)
-B.PX=s([B.m0,null,null,B.m6],t.L)
-B.Ou=s([B.fM,B.fM,B.iE,null],t.L)
-B.P0=s([B.fI,null,null,B.fO],t.L)
-B.Ps=s([B.fJ,null,null,B.fQ],t.L)
-B.Ov=s([B.de,B.de,B.dL,null],t.L)
-B.S0=new A.dt(["*",B.Oj,"+",B.PN,"-",B.ON,".",B.Pe,"/",B.NK,"0",B.Q2,"1",B.PZ,"2",B.Oq,"3",B.Q7,"4",B.PY,"5",B.On,"6",B.NN,"7",B.OB,"8",B.PO,"9",B.PR,"Alt",B.Os,"AltGraph",B.Q3,"ArrowDown",B.OW,"ArrowLeft",B.OX,"ArrowRight",B.OY,"ArrowUp",B.Q4,"Clear",B.PW,"Control",B.Ot,"Delete",B.Pm,"End",B.OZ,"Enter",B.Om,"Home",B.P_,"Insert",B.PX,"Meta",B.Ou,"PageDown",B.P0,"PageUp",B.Ps,"Shift",B.Ov],A.at("dt<i,O<j?>>"))
+B.P0=s([B.dK,null,null,B.fP],t.L)
+B.PY=s([B.m0,null,null,B.m6],t.L)
+B.Ov=s([B.fM,B.fM,B.iE,null],t.L)
+B.P1=s([B.fI,null,null,B.fO],t.L)
+B.Pt=s([B.fJ,null,null,B.fQ],t.L)
+B.Ow=s([B.de,B.de,B.dL,null],t.L)
+B.S0=new A.dt(["*",B.Oj,"+",B.PO,"-",B.OO,".",B.Pf,"/",B.NK,"0",B.Q3,"1",B.Q_,"2",B.Oq,"3",B.Q7,"4",B.PZ,"5",B.On,"6",B.NN,"7",B.OC,"8",B.PP,"9",B.PS,"Alt",B.Ot,"AltGraph",B.Q4,"ArrowDown",B.OX,"ArrowLeft",B.OY,"ArrowRight",B.OZ,"ArrowUp",B.Q5,"Clear",B.PX,"Control",B.Ou,"Delete",B.Pn,"End",B.P_,"Enter",B.Om,"Home",B.P0,"Insert",B.PY,"Meta",B.Ov,"PageDown",B.P1,"PageUp",B.Pt,"Shift",B.Ow],A.at("dt<i,O<j?>>"))
 B.SE={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.wP=new A.bM(B.SE,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.SA={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
@@ -111137,8 +111137,8 @@ B.cy=new A.v(!0,null,null,null,null,null,null,B.cn,null,null,null,null,null,null
 B.al=new A.y0(2,"ellipsis")
 B.a38=new A.am("\u4e8b\u696d\u8a08\u753b\u66f8\u4f5c\u6210",null,B.cy,null,null,null,B.al,1,null,null)
 B.JT=new A.C9(1,B.lE,B.a38,null)
-B.PM=s([B.qm,B.jk,B.JT],t.p)
-B.Vs=new A.EZ(B.aO,B.p,B.r,B.E,null,B.cA,null,0,B.PM,null)
+B.PN=s([B.qm,B.jk,B.JT],t.p)
+B.Vs=new A.EZ(B.aO,B.p,B.r,B.E,null,B.cA,null,0,B.PN,null)
 B.TB=new A.aw(B.Jd,B.Vs,null)
 B.a3x=new A.am("\u696d\u7a2e\u88dc\u6b63\u30ec\u30a4\u30e4\u30fc\u306e\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u306f\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null,null)
 B.TC=new A.aw(B.aI,B.a3x,null)
@@ -111201,12 +111201,12 @@ B.AK=new A.wR(0,"all")
 B.Uw=new A.wR(1,"insert")
 B.AL=new A.wR(2,"update")
 B.AM=new A.wR(3,"delete")
-B.P1=s(["\u30c0\u30df\u30fc","\u691c\u8a3c\u7528"],t.s)
-B.Q0=s(["\u6982\u8981","\u8a73\u7d30"],t.s)
-B.Ux=new A.Rj("testgrant","\u30c6\u30b9\u30c8\u7528\u88dc\u52a9\u91d1","\u958b\u767a\u30fb\u52d5\u4f5c\u78ba\u8a8d\u7528\u306e\u30c0\u30df\u30fc\u88dc\u52a9\u91d1\u3067\u3059",B.P1,B.Q0)
-B.PV=s(["\u6700\u5927200\u4e07\u5186","\u5e744\u56de\u7a0b\u5ea6"],t.s)
+B.P2=s(["\u30c0\u30df\u30fc","\u691c\u8a3c\u7528"],t.s)
+B.Q1=s(["\u6982\u8981","\u8a73\u7d30"],t.s)
+B.Ux=new A.Rj("testgrant","\u30c6\u30b9\u30c8\u7528\u88dc\u52a9\u91d1","\u958b\u767a\u30fb\u52d5\u4f5c\u78ba\u8a8d\u7528\u306e\u30c0\u30df\u30fc\u88dc\u52a9\u91d1\u3067\u3059",B.P2,B.Q1)
+B.PW=s(["\u6700\u5927200\u4e07\u5186","\u5e744\u56de\u7a0b\u5ea6"],t.s)
 B.NO=s(["\u57fa\u790e\u60c5\u5831","\u5e02\u5834\u3068\u9867\u5ba2","\u5f37\u307f","\u7d4c\u55b6\u65b9\u91dd\u30fb\u76ee\u6a19","\u88dc\u52a9\u4e8b\u696d\u306e\u5177\u4f53"],t.s)
-B.Uy=new A.Rj("jizokuka","\u5c0f\u898f\u6a21\u4e8b\u696d\u8005\u6301\u7d9a\u5316\u88dc\u52a9\u91d1","\u5c0f\u898f\u6a21\u4e8b\u696d\u8005\u306e\u8ca9\u8def\u958b\u62d3\u30fb\u751f\u7523\u6027\u5411\u4e0a\u3092\u652f\u63f4",B.PV,B.NO)
+B.Uy=new A.Rj("jizokuka","\u5c0f\u898f\u6a21\u4e8b\u696d\u8005\u6301\u7d9a\u5316\u88dc\u52a9\u91d1","\u5c0f\u898f\u6a21\u4e8b\u696d\u8005\u306e\u8ca9\u8def\u958b\u62d3\u30fb\u751f\u7523\u6027\u5411\u4e0a\u3092\u652f\u63f4",B.PW,B.NO)
 B.Uz=new A.t8(B.c3,B.kr,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.UA=new A.t8(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.UB=new A.wZ("\u5404\u30bb\u30af\u30b7\u30e7\u30f3",B.es,null,null)
@@ -111398,9 +111398,9 @@ B.B=new A.ci(4,"selected")
 B.BJ=new A.eo([B.B],t.El)
 B.HG=new A.K(0.23529411764705882,0,0,0,B.e)
 B.EZ=new A.bB(0.5,B.a5,B.HG,B.wZ,10)
-B.Pn=s([B.EZ],t.E)
+B.Po=s([B.EZ],t.E)
 B.Vr=new A.ld(B.ka,B.u)
-B.Wo=new A.iw(null,null,null,B.Pn,B.Vr)
+B.Wo=new A.iw(null,null,null,B.Po,B.Vr)
 B.Wq=new A.tG(null)
 B.Wr=new A.FC(0,"global")
 B.BK=new A.FC(1,"local")
@@ -111637,8 +111637,8 @@ B.YE=new A.eK("User",null,null)
 B.YA=new A.eK("JSON",null,null)
 B.Yu=new A.eK("JSON+labels",null,null)
 B.YH=new A.eK("messages",null,null)
-B.P2=s([B.YD,B.YC,B.Yz,B.YE,B.YA,B.Yu,B.YH],t.p)
-B.Yr=new A.xQ(B.P2,null,!0,null,null,null)
+B.P3=s([B.YD,B.YC,B.Yz,B.YE,B.YA,B.Yu,B.YH],t.p)
+B.Yr=new A.xQ(B.P3,null,!0,null,null,null)
 B.Ys=new A.TL(0,"linear")
 B.Yt=new A.TL(1,"elastic")
 B.na=new A.apT("tap")
@@ -112495,7 +112495,7 @@ $.vl=A.b([95.047,100,108.883],t.n)
 $.aVK=null
 $.aHX=null
 $.ao3=null
-$.aRr=A.E(["#1 \u57fa\u672c\u60c5\u5831\uff08header \u5358\u4e00\uff09",B.Qb,"#2 \u73fe\u5728\u306e\u7d4c\u55b6\u72b6\u6cc1\uff08products / business / segments / financials\uff09",B.NJ,"#3 \u4eca\u5f8c\u306e\u7d4c\u55b6\u65b9\u91dd\u30fb\u65b0\u898f\u4e8b\u696d\uff08header + new_business\uff09",B.Q6,"#4 \u88dc\u52a9\u4e8b\u696d\uff08project_*\uff09",B.OP,"#5 \u76ee\u6a19\uff08project_targets \u65e2\u5b58/\u65b0\u898f 2\u30ec\u30b3\u30fc\u30c9\uff09",B.Q5],t.N,A.at("O<aB>"))
+$.aRr=A.E(["#1 \u57fa\u672c\u60c5\u5831\uff08header \u5358\u4e00\uff09",B.Qb,"#2 \u73fe\u5728\u306e\u7d4c\u55b6\u72b6\u6cc1\uff08products / business / segments / financials\uff09",B.NJ,"#3 \u4eca\u5f8c\u306e\u7d4c\u55b6\u65b9\u91dd\u30fb\u65b0\u898f\u4e8b\u696d\uff08header + new_business\uff09",B.Q6,"#4 \u88dc\u52a9\u4e8b\u696d\uff08project_*\uff09",B.OQ,"#5 \u76ee\u6a19\uff08project_targets \u65e2\u5b58/\u65b0\u898f 2\u30ec\u30b3\u30fc\u30c9\uff09",B.Or],t.N,A.at("O<aB>"))
 $.Ac=A.u(t.N,A.at("aid"))
 $.aTY=!1
 $.b2H=A.u(t.S,A.at("bdi"))
